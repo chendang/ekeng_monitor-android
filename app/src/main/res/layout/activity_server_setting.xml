@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/login_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_hight"
+        android:background="@color/top_bar_color"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/server_setting_back_btn"
+            android:layout_width="@dimen/top_back_btn_width"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="@drawable/xml_login_main_btn_back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="@string/server_setting_title"
+            android:textColor="#fefefe"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_server_setting" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/add_member_head_margin"
+        android:layout_marginLeft="@dimen/add_member_head_margin"
+        android:layout_marginRight="@dimen/add_member_head_margin"
+        android:padding="@dimen/add_member_head_margin"
+        android:stretchColumns="1"
+        >
+
+        <TableRow android:gravity="center_vertical" android:layout_marginBottom="1dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textSize="@dimen/add_member_text_size"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/url"/>
+            <EditText
+                android:id="@+id/et_server_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:textSize="@dimen/add_member_text_size"/>
+        </TableRow>
+
+        <TableRow android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_server_setting"
+                    android:layout_width="@dimen/add_member_head_w_h"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/btn_grid_item_padding_h"
+                    android:layout_margin="@dimen/add_member_head_margin"
+                    android:text="@string/confirm"
+                    android:textSize="@dimen/add_member_text_size"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_blue"></Button>
+
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

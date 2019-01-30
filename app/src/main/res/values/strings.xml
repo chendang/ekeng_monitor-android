@@ -1,0 +1,292 @@
+<resources>
+    <string name="app_name">HealthQDoctor</string>
+    <!--<string name="app_name">健康监测</string>-->
+
+    <string name="USER">User</string>
+    <string name="USER_NAME">User: </string>
+    <string name="CONNECTING">Connecting...</string>
+    <string name="NO_USABLE_DEVICE">Unusable bluetooth devices</string>
+    <string name="NULL_DEVICE">No matched\nPlease search again…</string>
+    <string name="DISCOVERY">Search devices</string>
+    <string name="REDISCOVERY">Search again</string>
+    <string name="STOP_DISCOVERY">Stop searching</string>
+    <string name="CONNECT">Connect</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="CONNECTED">Connected!</string>
+    <string name="CONNECT_ERROR">Connected error!Please connect again</string>
+    <string name="CONNECT_GLUCOSE">Please connect with glucose monitor...</string>
+    <string name="CONNECT_PRESSURE">Please connect with blood pressure monitor...</string>
+    <string name="CONNECT_THERMOMETER">Please connect with thermometer...</string>
+    <string name="CONNECT_URIC_ACID">Please connect with uric acid detector...</string>
+    <string name="CONNECT_WEIGHT">Please connect with body fat analyzer...</string>
+    <string name="CONNECT_LIPID">Please connect with lipid instrument...</string>
+    <string name="YOUR">Your </string>
+
+    <string name="HIGH">systolic pressure</string>
+    <string name="LOW">diastolic pressure</string>
+    <string name="RATE">heart rate</string>
+
+    <string name="SP">SYSP</string>
+    <string name="DP">DIAP</string>
+    <string name="HR">HERR</string>
+
+    <string name="CONSISTENCE_MMOL">Concentration(mmol/L)</string>
+    <string name="CONSISTENCE_MG">Concentration(mg/dL)</string>
+    <string name="TIMES">times</string>
+    <string name="NUM">No.</string>
+    <string name="TIME">TIME</string>
+    <string name="CONSISTENCE">Consistence</string>
+    <string name="AT">&#160;on&#160;</string>
+
+    <string name="GLUCOSE_RESULT">ENYour blood glucose test result was&#160;</string>
+    <string name="PRESSURE_RESULT">ENYour blood pressure test result was:</string>
+    <string name="TEMPERATURE_RESULT">ENYour temperature test result was&#160;</string>
+    <string name="PERIOD">. </string>
+    <string name="TIPS">Tips</string>
+    <string name="CONFIRM">Confirm</string>
+    <string name="SELECT_DATAS">Please select the datas to send!</string>
+    <string name="SELECT_WAY">Select sending mode</string>
+    <string name="SMS">SMS</string>
+    <string name="EMAIL">Email</string>
+
+
+    <string name="ABOUT">About</string>
+    <string name="VERSION">Software: Fudakang App System(Android)\nVersion: Ver1.0.0\nProperty: Fudakang Industrial Co., LTD</string>
+    <string name="SET_UNIT">Setting the unit of blood glucose</string>
+    <string name="SETTING">Setting</string>
+    <string name="CLOSED">This function is not opened</string>
+    <string name="CREATED">Created</string>
+    <string name="IS_EXIT">Quit?</string>
+    <string name="SELECT_ALL">Select all</string>
+    <string name="CANCEL_ALL">Cancel all</string>
+    <string name="DELETE_CURRENT">Delete the current</string>
+    <string name="SEND">Send</string>
+    <string name="TESTING">Testing...</string>
+    <string name="INSERT_TEST_PAPER">Please insert a test strip...</string>
+    <string name="DRIP_BLOOD">Please drip your blood into the test strip...</string>
+    <string name="WAIT">Please wait&#160;</string>
+    <string name="SECOND">&#160;seconds...</string>
+    <string name="YOUR_GLUCOSE">Your blood glucose=</string>
+    <string name="YOUR_SYSTOLIC">Your systolic pressure=</string>
+    <string name="YOUR_DIASTOLIC">diastolic pressure=</string>
+    <string name="YOUR_HEART">heart rate=</string>
+
+
+    <string name="YOUR_TEMPERATURE">Your temperature=</string>
+    <string name="PRESS_TEST">Please press to test...</string>
+    <string name="TEST">Test</string>
+    <string name="TEMPERATURE">THERMOMETER</string>
+
+    <string name="YOUR_HUMAN_TEMPERATURE">Your temperature=</string>
+    <string name="YOUR_OBJECT_TEMPERATURE">Your object temperature=</string>
+    <string name="YOUR_ENVI_TEMPERATURE">Your environment temperature=</string>
+    <string name="TEMPERATURE_LOW">Warning: Temperature low</string>
+    <string name="TEMPERATURE_HIGTH">Warning: Temperature hight</string>
+    <string name="ENVI_LOW">Warning: Environment temperature low</string>
+    <string name="ENVI_HIGTH">Warning: Environment temperature hight</string>
+    <string name="EEPROM">Warning: Error</string>
+    <string name="SENSOR">Warning: Sensor error</string>
+    <string name="WARNING">Warning:</string>
+
+
+    <!-- 连接。删除4个按钮 -->
+    <string name="DELETE">Delete</string>
+    <string name="SAMPLE">Sample</string>
+    <string name="COMPLETE">Complete</string>
+
+
+    <string name="StateClose">Oximeter is not connected</string>
+    <string name="StateConnecting">Please connect the oximeter</string>
+    <string name="Stateconnected">Oximeter is connected</string>
+
+    <string name="FHRdiconnte">Fetal Doppler is not connected</string>
+    <string name="FHRConnecting">Please connect the Fetal Doppler</string>
+    <string name="FHRconnected">Fetal Doppler is connected</string>
+    <string name="WEB">Uploaded to the OTC</string>
+
+    <string name="LOGIN_INPUT_PASSWORD">Please enter the password</string>
+    <string name="LOGIN_INPUT_USERNAME">Please enter the account</string>
+
+
+    <string name="GH_LOADINGDIALOG_STRING">Is landing</string>
+    <string name="GH_UPLOADIALOG_STRING">Uploaded to the OTC</string>
+
+    <string name="STOP">Stop</string>
+
+    <string name="NO.">No.</string>
+    <string name="LISTVIEW_TIME">TIME</string>
+
+
+    <string name="TOAST_HOSET_CONNECT">The device is connected, please disconnect device</string>
+    <string name="TOAST_DEL_NOT_AVAILABLE">The delete member function is only available in offline login.</string>
+    <string name="TOAST_HOSET_CAIJI">Please connect device after collecting the data</string>
+    <string name="TOAST_HOSET_SEND">Please choose to send data</string>
+
+    <string name="today">Today</string>
+    <string name="logining">Login...</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="chooseAll">Choose All</string>
+    <string name="my_account">My Account</string>
+    <string name="login">Login</string>
+    <string name="click_login">Click To Login</string>
+    <string name="name_hint">Please enter phone number</string>
+    <string name="inPwd">Please enter your password</string>
+    <string name="login_forget_password"><u>Forgot password?</u></string>
+    <string name="login_forget_password_2">Forgot password</string>
+    <string name="usernameNull">Account can not be empty</string>
+    <string name="usernameErr">Account does not comply Mobile phone format</string>
+    <string name="pwdNull">Password can not be empty</string>
+    <string name="pwdErr">Password must be greater than equal to 6 and less than 20</string>
+    <string name="login_user_pwd_err">Login failed, account password error</string>
+    <string name="server_connect_fail">Server connection error, please contact customer service</string>
+    <string name="working">Working</string>
+    <string name="isSetNet">The network is unavailable, whether now set?</string>
+    <string name="relogin">Account is offline, please sign in again</string>
+    <string name="dialog_alert_title">Warning</string>
+    <string name="dialog_exit_login">You sure you want to log off?</string>
+    <string name="dialog_delete_wait_ins_record">You sure you want to delete this article to be seized records?</string>
+    <string name="dialog_exit_add_member">You sure you want to exit the Add member?</string>
+    <string name="dialog_delete_record_item">You sure you want to delete this checks it?</string>
+    <string name="dialog_delete_member">You sure you want to delete the member?</string>
+    <string name="dialog_glu_no_testitem_set">The test item has not been set?</string>
+    <string name="dialog_glu_select_testitem">Please select the test item</string>
+    <string name="device_un_register_info">Sure you want to log off the current account?</string>
+    <string name="dialog_input_height_waist_title">Please enter height and waist</string>
+    <string name="dialog_input_bp_title">Please enter the blood pressure values</string>
+    <string name="dialog_input_chol_trig_title">Please enter the total cholesterol and triglyceride</string>
+    <string name="dialog_input_ua_title">Please enter the uric acid</string>
+    <string name="dialog_server_setting">Sure you want to modify the server URL address?</string>
+    <!-- 更新部分 -->
+    <string name="dialog_update_title">Upgrade</string>
+    <string name="dialog_update_msg">New version founded</string>
+    <string name="dialog_update_msg2">Upgrade now?</string>
+    <string name="dialog_update_btnupdate">Update</string>
+    <string name="dialog_update_btnnext">Next time</string>
+    <string name="dialog_downloading_msg">Downloading the new version\u2026</string>
+    <string name="dialog_downfailed_btndown">Re-download</string>
+    <string name="dialog_downfailed_btnnext">Later</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_downfailed_msg">New version file downloaded failed,try again?</string>
+    <!--end-->
+
+    <string name="CHECK_TYPE_INFO_BLOOD_GLUCOSE">Blood glucose</string>
+
+    <string name="home_title">Start Detection</string>
+    <string name="member_list_title">Member list</string>
+    <string name="member_download_title">Downloading...</string>
+    <string name="loading">loading...</string>
+    <string name="empty_message">No Member Information on your pad!</string>
+    <string name="error_message">Slow internet connection</string>
+    <string name="error_button">Try again</string>
+    <string name="search_empty">Member not found</string>
+    <string name="refresh_empty">Refresh</string>
+    <string name="chooseNum">Selected:  %1$d </string>
+    <string name="cancelchooseAll">Unselect all</string>
+    <string name="devices_title">Device</string>
+    <string name="add_member_title">New Member</string>
+    <string name="loadfail">Failed to load</string>
+    <string name="operFail">operation failed</string>
+    <string name="upload_image_fail">Pictures saved successfully, but failed to upload</string>
+    <string name="camera_img">Photograph</string>
+    <string name="local_img">Select from the album</string>
+    <string name="move_zoom">Image cropping</string>
+    <string name="click_to_upload_image">Click Upload Photos</string>
+    <string name="device_info_title">%1$s：Equipment List</string>
+    <string name="server_setting_title">Server Settings</string>
+    <string name="url">URL</string>
+
+    <!--add member-->
+    <string name="with_doctor">To your physicians</string>
+    <string name="name">Full name</string>
+    <string name="nickname">Nick name</string>
+    <string name="gender">Gender</string>
+    <string name="mobile">Cellphone number</string>
+    <string name="birthday">Birthday</string>
+    <string name="landline">Landline</string>
+    <string name="idnumber">ID number</string>
+    <string name="ssn">SSN</string>
+    <string name="address">Address</string>
+    <string name="anamnesis">Anamnesis</string>
+
+    <string name="head_image_is_not_null">Photos can not be empty</string>
+    <string name="name_is_not_null">Do not leave your name blank</string>
+    <string name="mobile_is_not_null">The phone number can not be empty</string>
+    <string name="is_not_mobile">Instead of entering the phone number</string>
+    <string name="birthday_is_not_null">Date of birth can not be empty</string>
+    <string name="device_list_is_empty">The device list is empty</string>
+    <string name="no_permission">No permission</string>
+    <string name="cloud_add_member_failed">Members submit information failed, please try again</string>
+    <string name="native_add_member_failed">Membership locally generated information failed, please try again</string>
+    <string name="native_add_member_has_same">Failed to add members, the presence of members of the same mobile phone number</string>
+    <string name="native_update_member_failed">Modify membership information locally generated failed, please refresh Member List</string>
+    <string name="network_error">Network anomalies, check the network is smooth or contact customer service</string>
+    <string name="doctor_is_not_null">Please select the doctor belongs</string>
+    <string name="native_save_member_success">Membership information stored locally successful, please upload local networking information as soon as possible</string>
+    <string name="sample_error">Acquisition fails, the current value is invalid</string>
+    <string name="syncing">Syncing \u2026</string>
+    <string name="sync_success">Synchronization success</string>
+    <string name="mobile_network_error">Network anomalies, check the network is unobstructed</string>
+    <string name="upload_file_error">Upload file failed</string>
+    <string name="height_not_null">Height can not be empty</string>
+    <string name="waist_not_null">Waist can not be empty</string>
+    <string name="height_is_fanwei">Back height only 50cm to 255cm between</string>
+
+    <string name="bp_height_not_null">Systolic blood pressure can not be empty</string>
+    <string name="bp_low_not_null">Diastolic blood pressure can not be empty</string>
+    <string name="bp_is_fanwei">Blood pressure range must be between 0 ~ 350 mmHg</string>
+    <string name="lipid_chol_not_null">Cholesterol can not be empty</string>
+    <string name="lipid_trig_not_null">Triglycerides can not be empty</string>
+    <string name="lipid_is_fanwei">It must be between 0 ~ 50 mmol/L</string>
+    <string name="ua_not_null">Uric acid can not be empty</string>
+    <string name="ua_is_fanwei">Uric acid value range must be between 0 ~ 700mmol / dL</string>
+    <string name="url_format_is_incorrect">URL format is incorrect</string>
+    <string name="url_is_not_null">URL is not null</string>
+    <string name="url_is_not_end_with_slash">Can not end with "/"</string>
+    <string name="hint_input_name">Enter your name</string>
+    <string name="hint_input_mobile">Enter your cell phone</string>
+    <string name="hint_input_idnumber">Enter part of your pinyin,ID card , name or phone number</string>
+
+    <string name="ins_height">Height</string>
+    <string name="ins_waist">Waist</string>
+    <string name="ins_bp_height">Systolic blood pressure</string>
+    <string name="ins_bp_low">Diastolic blood pressure</string>
+    <string name="ins_lipid_chol">Cholesterol</string>
+    <string name="ins_lipid_triglycerides">Triglycerides</string>
+    <string name="ins_uric_acid">Uric acid</string>
+    <string name="manual_input">Manual input</string>
+
+    <!--HomeFragment 中设备名称字段  -->
+    <string name="device_meter_blood_glucose">Blood glucose meter</string>
+    <string name="device_pulse_oximter">Pulse Oximter</string>
+    <string name="device_sphygmomanometers">Sphygmomanometers</string>
+    <string name="device_thermometer">Thermometer</string>
+    <string name="device_lipid_instrument">Lipid instrument</string>
+    <string name="device_weighing_scale">Weighing scale</string>
+    <string name="device_uric_acid_analyzer">Uric acid analyzer</string>
+    <string name="title_activity_test_jason">TestJasonActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detect_ble2">DetectBle2Activity</string>
+    <string name="title_activity_detect_wifi" translatable="false">DetectWifiActivity</string>
+    <string name="title_activity_lsblue_device_list" translatable="false">LSBLueDeviceListActivity</string>
+    <string name="title_activity_lsblue_device_add" translatable="false">LSBlueDeviceAddActivity</string>
+    <string name="title_activity_detect_wifi_serch">DetectWifiSerchActivity</string>
+    <string name="title_activity_detect_wifi_succ">DetectWifiSuccActivity</string>
+    <string name="title_activity_detect_wifi_failure">DetectWifiFailureActivity</string>
+    <string name="explain_ble_requires_gps">GPS Service permission is required for BLE device searching since Android 6.0</string>
+    <string name="can_not_search_ble">Can not search BLE Device</string>
+    <string name="dialog_ble_empty_title">attention!!</string>
+
+    <!--wifi设置 名称字段-->
+    <string name="title_ls_wifi_blood_pressure_guide">title_ls_wifi_blood_pressure_guide</string>
+    <string name="title_ls_wifi_blood_pressure">title_ls_wifi_blood_pressure</string>
+    <string name="title_ls_wifi_blood_pressure_serch">title_ls_wifi_blood_pressure_serch</string>
+    <string name="title_ls_wifi_blood_pressure_succ">title_ls_wifi_blood_pressure_succ</string>
+    <string name="title_ls_wifi_blood_pressure_failure">title_ls_wifi_blood_pressure_failure</string>
+    <string name="LS_WIFI_BLOOD_PRESSURE">LS_WIFI_BLOOD_PRESSURE</string>
+    <string name="LS_WIFI_WEIGHT">LS_WIFI_WEIGHT</string>
+    <string name="title_activity_lsblue_add_sync" translatable="false">LSBlueAddSyncActivity</string>
+    <string name="dialog_ble_empty">Supported Oxymetry is not found, do you want to scan for it?</string>
+</resources>

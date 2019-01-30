@@ -1,0 +1,56 @@
+/* CSS Document */
+.header{ z-index: 101; background: none;}
+.wrapper{ background: url(../img/bg.jpg) no-repeat center center; background-size: cover; }
+
+.img_logo{ width:65%; display: block; margin:6rem auto 2.5rem;}
+.h2_title{ font-size:2.4rem; color:#fff; text-align: center; margin:7rem 0 4rem;}
+
+.panel{ width:74%; margin:0 auto;}
+.panel div{ display: -webkit-box; background: rgba(255,255,255,0.3); margin-bottom: 1rem; border-radius: 0.4rem;}
+.panel input::-webkit-input-placeholder{ color:#eee;}
+.panel div input[type=text],
+.panel div input[type=password]{ display:block; height: 3.2rem; line-height: 3.2rem; border:none; background:none; vertical-align: middle; 
+font-size: 1.3rem; -webkit-box-flex:1; border-radius: 0.4rem; text-indent: 0.8rem; color:#fff; }
+.panel div>span{  width:4.0rem; height: 3.2rem; display: inline-block; vertical-align:middle; border-right:1px solid rgba(0,4,81,0.3); }
+.panel div>i{ display: block; width:4rem; line-height: 3.2rem; text-align: center; color:#fff; vertical-align: middle; font-size: 1.4rem;}
+.panel div.account  span{ background: url(../img/icon_account.png) no-repeat center center/1.0rem auto; }
+.panel div.password span{ background: url(../img/icon_pwd.png) no-repeat center center/1.4rem auto; }
+.panel div.birthday span{ background: url(../img/icon_calind.png) no-repeat center center/1.4rem auto; }
+.panel div.name     span{ background: url(../img/icon_name.png) no-repeat center center/1.4rem auto; }
+.panel div.tall     span{ background: url(../img/icon_height.png) no-repeat center center/1.4rem auto; }
+.panel div.weight   span{ background: url(../img/icon_weight.png) no-repeat center center/1.4rem auto; }
+.panel div.sex      span{ background: url(../img/icon_sex.png) no-repeat center center/1.4rem auto; }
+.panel div label{ width:3rem; line-height: 3.2rem; display:block; padding-left:3rem; color:#fff; font-size: 1.3rem;
+background: url(../img/icon_checked.png) no-repeat 0.8rem center/1.4rem auto;}
+.panel div label.active{ background: url(../img/icon_check.png) no-repeat 0.8rem center/1.4rem auto;}
+
+.panel .btn_login{ width:100%; height: 3.4rem; line-height: 3.4rem; border:none; font-size: 1.4rem; color:#fff;
+background: linear-gradient(to right,#39d685,#5ccbf1); border-radius: 1.8rem; margin-top:1.0rem;}
+.panel p{ padding:0.7rem 0; text-align: center; font-size: 1.3rem; color:#fff;}
+.panel p a{ width:50%; height: 2.4rem; line-height: 2.4rem; color:#fff; display: block; text-align: center; margin:0 auto; }
+.panel .a_reg{ width:50%; height: 3.2rem; line-height: 3.2rem; display:block; margin:0 auto; color:#036b53; text-align: center;
+background: rgba(255,255,255,0.6); font-size: 1.3rem; border-radius: 1.6rem; }
+.panel div.vcode{ background: none;}
+.panel div.vcode span{ border-top-left-radius: 0.4rem;  border-bottom-left-radius: 0.4rem;
+background:rgba(255,255,255,0.3) url(../img/icon_vcode.png) no-repeat center center/1.4rem auto; }
+.panel div.vcode input[type=text]{ border-radius:0; border-top-right-radius: 0.4rem;  border-bottom-right-radius: 0.4rem;
+background: rgba(255,255,255,0.3); }
+.panel div.vcode a{ padding:0 0.8rem; margin-left:0.6rem; height: 3.2rem; line-height: 3.2rem; text-align: center; display: block; 
+background: linear-gradient(to right,#39d685,#5ccbf1); border-radius: 0.4rem; font-size: 1.2rem; color:#fff; }
+.panel div.vcode a.active{ background: rgba(255,255,255,0.6);}
+
+.panel div.vcode .btn{ padding:0 0.8rem; margin-left:0.6rem; height: 3.2rem; text-align: center; display: block; 
+background: linear-gradient(to right,#39d685,#5ccbf1); border-radius: 0.6rem; font-size: 1.2rem; color:#fff; }
+
+.panel .action{ background: none; display: block; padding:4rem 0;}
+.panel .action input{ width:45%; height: 3.2rem; line-height: 3.2rem; border:none; border-radius: 1.6rem; font-size: 1.6rem; color:#197465; display: inline-block; background: rgba(255,255,255,0.5);}
+.panel .action input.btn_skip{ float:left;}
+.panel .action input.btn_submit{ float:right; background: rgba(255,255,255,0.8);}
+
+
+
+
+
+
+
+

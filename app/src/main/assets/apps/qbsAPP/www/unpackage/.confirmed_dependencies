@@ -1,0 +1,2385 @@
+{
+	"index.html": {
+		"resources": [
+			"img/icon_add.png",
+			"img/icon_news.png",
+			"img/index_menu_2.png",
+			"img/index_menu_1.png",
+			"img/icon_msg.png",
+			"img/index_menu_5.png",
+			"js/lib/swiper.jquery.min.js",
+			"css/index.css",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/icon_profile.png",
+			"img/icon_find.png",
+			"img/icon_hat.png",
+			"css/common.css",
+			"css/lib/CSSRESET.css",
+			"img/icon_alert.png",
+			"img/index_menu_4.png",
+			"css/lib/mui.min.css",
+			"img/icon_self.png",
+			"img/icon_bubble.png",
+			"img/icon_cart.png",
+			"img/index_card_pic_1.png",
+			"img/index_bg.jpg",
+			"css/lib/swiper.min.css",
+			"js/lib/mui.min.js",
+			"img/icon_tag.png",
+			"img/index_menu_8.png",
+			"img/index_menu_3.png",
+			"img/icon_go.png",
+			"img/icon_close.png",
+			"img/index_menu_6.png",
+			"img/index_menu_7.png",
+			"img/index_news_pic_1.jpg",
+			"img/icon_home_at.png",
+			"img/icon_self_at.png",
+			"img/icon_fire.png",
+			"img/icon_cart_at.png",
+			"img/icon_find_at.png"
+		],
+		"refer": [
+			"member/FamilyMenu.html"
+		]
+	},
+	"member/FamilyMenu.html": {
+		"resources": [
+			"css/style.css",
+			"img/5-17.jpg",
+			"css/lib/mui.min.css",
+			"js/lib/mui.min.js",
+			"img/5-15.jpg",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/hui.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/lib/huimin.css",
+			"img/s6.png"
+		],
+		"refer": [
+			"member/FamilyAddMemberPart1.html",
+			"login.html"
+		]
+	},
+	"shell.html": {
+		"resources": [
+			"js/lib/h.min.js",
+			"img/icon_msg_at.png",
+			"img/icon_self_at.png",
+			"img/icon_cart_at.png",
+			"css/common.css",
+			"css/lib/CSSRESET.css",
+			"js/lib/mui.min.js",
+			"img/icon_home_at.png",
+			"img/icon_find_at.png",
+			"img/icon_cart.png",
+			"img/icon_find.png",
+			"img/icon_msg.png",
+			"img/icon_self.png",
+			"img/icon_home.png",
+			"member/Message.html",
+			"Index.html",
+			"img/_icon_msg.png",
+			"img/_icon_restore.png",
+			"img/_icon_cart.png",
+			"img/_icon_home_at.png",
+			"img/_icon_self.png",
+			"img/_icon_msg_at.png",
+			"img/_icon_cart_at.png",
+			"img/_icon_home.png",
+			"img/_icon_restore_at.png",
+			"img/_icon_self_at.png"
+		],
+		"refer": [
+			"member/Message.html",
+			"member/Discover.html",
+			"member/Shop.html",
+			"member/Person.html",
+			"login.html",
+			"Index.html",
+			"member/Favorite.html",
+			"member/TopicList.html"
+		]
+	},
+	"member/Message.html": {
+		"resources": [
+			"js/public.js",
+			"css/style.css",
+			"css/lib/mui.min.css",
+			"js/lib/h.min.js",
+			"js/lib/mui.min.js",
+			"img/35.png",
+			"css/fonts/mui.ttf",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/hui.js"
+		],
+		"refer": []
+	},
+	"member/Discover.html": {
+		"resources": [
+			"img/discover_pic_1.jpg",
+			"img/icon_like_r.png",
+			"img/icon_clock.png",
+			"img/icon_like_g.png",
+			"img/icon_location.png",
+			"img/icon_love.png",
+			"img/discover_pic_2.jpg",
+			"img/icon_doctor_2.png",
+			"img/icon_doctor.png",
+			"img/icon_mark.png",
+			"css/discover.css",
+			"img/icon_shared_g.png",
+			"js/lib/jquery-2.1.3.min.js",
+			"css/lib/CSSRESET.css",
+			"css/common.css",
+			"img/index_bg.jpg",
+			"img/icon_add.png",
+			"img/icon_profile.png",
+			"img/icon_alert.png"
+		],
+		"refer": []
+	},
+	"member/Person.html": {
+		"resources": [
+			"js/lib/mui.view.js",
+			"css/fonts/mui.ttf",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"js/base.js",
+			"member/MemberInMenu.html",
+			"js/lib/qs.js",
+			"js/lib/axios.min.js"
+		],
+		"refer": [
+			"login.html",
+			"member/EditPerInfo.html",
+			"member/CardIntroduce.html",
+			"member/MemberInMenu.html",
+			"member/ShopMemberList.html",
+			"member/RegMember.html"
+		]
+	},
+	"member/MemberDataIndex.html": {
+		"resources": [
+			"img/lhvback.png",
+			"img/hong.png",
+			"js/circles.js",
+			"img/lv.png",
+			"img/huang.png",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"js/base.js"
+		],
+		"refer": [
+			"member/bloodDataShow.html",
+			"login.html",
+			"member/BpDataShow.html",
+			"member/WaistDataShow.html",
+			"member/SpO2DataShow.html",
+			"member/GluDataShow.html",
+			"member/TempDataShow.html",
+			"member/BmiDataShow.html",
+			"member/BfpDataShow.html",
+			"member/CholDataShow.html",
+			"member/TgDataShow.html",
+			"member/UaDataShow.html",
+			"member/UphDataShow.html",
+			"member/SgDataShow.html",
+			"member/SleepDataShow.html",
+			"member/StepDataShow.html",
+			"member/SingleDataChart.html"
+		]
+	},
+	"member/Shop.html": {
+		"resources": [
+			"css/common.css",
+			"js/lib/mui.min.js",
+			"js/base.js",
+			"js/lib/immersed.js",
+			"js/lib/common.js",
+			"member/Shop.html"
+		],
+		"refer": [
+			"member/Shop.html",
+			"member/OpenUrl.html"
+		]
+	},
+	"member/bloodDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/sm.min.css",
+			"font/fontawesome-webfont.ttf",
+			"img/blood.png",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"font/fontawesome-webfont.woff2",
+			"js/base.js"
+		],
+		"refer": []
+	},
+	"login.html": {
+		"resources": [
+			"img/login_logo.png",
+			"img/login_text.png",
+			"img/icon_pwd.png",
+			"img/login_bg.jpg",
+			"js/lib/hui.js",
+			"css/login.css",
+			"css/lib/huimin.css",
+			"img/icon_user.png",
+			"js/lib/jquery-2.1.3.min.js",
+			"css/common.css",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/lib/CSSRESET.css",
+			"js/lib/mui.min.js",
+			"css/lib/mui.min.css",
+			"js/click.js",
+			"img/icon_logo.png",
+			"img/bg.jpg",
+			"js/lib/axios.min.js",
+			"img/icon_account.png"
+		],
+		"refer": [
+			"shell.html",
+			"Index.html",
+			"register.html",
+			"forgetpwd.html",
+			"member/MemberCheckList.html"
+		]
+	},
+	"start.html": {
+		"resources": [
+			"img/openThree.jpg",
+			"js/lib/hui.js",
+			"img/openOne.jpg",
+			"img/openTwo.jpg",
+			"css/lib/huimin.css",
+			"js/lib/hui-swipe.js"
+		],
+		"refer": [
+			"login.html",
+			"shell.html",
+			"Index.html"
+		]
+	},
+	"member/BpDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"img/blood.png",
+			"font/fontawesome-webfont.woff2",
+			"css/sm.min.css",
+			"js/base.js"
+		]
+	},
+	"member/WaistDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"img/blood.png",
+			"font/fontawesome-webfont.woff2",
+			"css/sm.min.css",
+			"js/base.js"
+		]
+	},
+	"member/SpO2DataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/sm.min.css",
+			"js/base.js"
+		]
+	},
+	"member/BmiDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/sm.min.css",
+			"js/base.js"
+		]
+	},
+	"member/BfpDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/sm.min.css",
+			"js/base.js"
+		]
+	},
+	"member/CholDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"js/base.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/sm.min.css"
+		]
+	},
+	"member/UaDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"js/base.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/sm.min.css"
+		]
+	},
+	"member/UphDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"js/base.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/sm.min.css"
+		]
+	},
+	"member/SgDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"img/blood.png",
+			"font/fontawesome-webfont.woff2",
+			"css/sm.min.css",
+			"js/base.js"
+		]
+	},
+	"member/SleepDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/sm.min.css",
+			"js/base.js"
+		]
+	},
+	"member/UploadCaseFiles.html": {
+		"resources": [
+			"css/feedback.css",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"img/5-16.jpg",
+			"css/fonts/mui.ttf",
+			"js/base.js"
+		],
+		"refer": [
+			"member/ToFileList.html"
+		]
+	},
+	"member/ToFileList.html": {
+		"resources": [
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/style.css",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/lib/hui.js",
+			"js/lib/vue20.min.js",
+			"css/lib/huimin.css",
+			"js/lib/hui-image-preview.js",
+			"js/lib/vue-lazyload.js",
+			"img/loading.gif"
+		],
+		"refer": [
+			"member/UploadCaseFiles.html"
+		]
+	},
+	"member/TestMenu.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"img/yyz01.png",
+			"img/5-07.jpg",
+			"img/5-04.png",
+			"js/public.js",
+			"img/5-06.jpg",
+			"img/jlz01.png",
+			"css/style.css",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"js/base.js"
+		],
+		"refer": [
+			"member/BasicInfoTest1.html",
+			"member/BasicInfoTestList.html",
+			"member/GreatTest1.html",
+			"member/SF36List.html",
+			"member/AnxiousPart1.html",
+			"member/SetBmiInfo.html",
+			"member/DepressedPart1.html"
+		]
+	},
+	"member/BasicInfoTest1.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"js/base.js"
+		],
+		"refer": [
+			"member/BasicInfoTestList.html",
+			"member/BasicInfoTest2.html"
+		]
+	},
+	"member/BasicInfoTest2.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf"
+		],
+		"refer": [
+			"member/BasicInfoTest3.html"
+		]
+	},
+	"member/BasicInfoTestList.html": {
+		"resources": [
+			"js/utils.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"js/base.js",
+			"js/lib/hui.js",
+			"js/lib/vue20.min.js"
+		],
+		"refer": [
+			"member/BasicInfoTest1.html",
+			"member/EditBasicInfoTest1.html",
+			"member/EditBasicInfoTest2.html",
+			"member/EditBasicInfoTest3.html",
+			"member/EditBasicInfoTest4.html"
+		]
+	},
+	"member/EditBasicInfoTest1.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf"
+		],
+		"refer": [
+			"member/BasicInfoTestList.html"
+		]
+	},
+	"member/EditBasicInfoTest2.html": {
+		"refer": [
+			"member/BasicInfoTestList.html"
+		],
+		"resources": [
+			"js/lib/mui.min.js"
+		]
+	},
+	"member/EditBasicInfoTest3.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf"
+		]
+	},
+	"member/EditBasicInfoTest4.html": {
+		"refer": [
+			"member/BasicInfoTestList.html"
+		],
+		"resources": [
+			"js/lib/mui.min.js"
+		]
+	},
+	"member/GreatTest1.html": {
+		"refer": [
+			"member/GreatTest2.html",
+			"member/SF36List.html"
+		],
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"js/base.js"
+		]
+	},
+	"member/GreatTest2.html": {
+		"refer": [
+			"member/GreatTest3.html"
+		],
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"js/base.js"
+		]
+	},
+	"member/GreatTest3.html": {
+		"refer": [
+			"member/GreatTest4.html",
+			"member/SF36List.html"
+		],
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf"
+		]
+	},
+	"member/GreatTest4.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf"
+		],
+		"refer": [
+			"member/GreatTest5.html"
+		]
+	},
+	"member/GreatTest5.html": {
+		"refer": [
+			"member/GreatTest6.html"
+		]
+	},
+	"member/GreatTest6.html": {
+		"refer": [
+			"member/GreatTest7.html"
+		]
+	},
+	"member/GreatTest7.html": {
+		"refer": [
+			"member/SF36Result.html"
+		]
+	},
+	"member/BasicInfoTest3.html": {
+		"refer": [
+			"member/BasicInfoTest4.html"
+		],
+		"resources": [
+			"js/lib/mui.min.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf"
+		]
+	},
+	"member/SF36List.html": {
+		"resources": [
+			"js/utils.js",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"js/lib/hui.js",
+			"js/lib/vue20.min.js",
+			"css/lib/huimin.css"
+		],
+		"refer": [
+			"member/GreatTest1.html",
+			"member/EditGreatTest1.html",
+			"member/EditGreatTest3.html",
+			"member/EditGreatTest6.html",
+			"member/EditBasicInfoTest1.html",
+			"member/EditGreatTest5.html",
+			"member/EditGreatTest4.html",
+			"member/EditGreatTest7.html",
+			"member/EditGreatTest2.html"
+		]
+	},
+	"member/AnxiousPart1.html": {
+		"resources": [
+			"css/Anxious.css",
+			"img/7-01.gif",
+			"img/7-13.png",
+			"img/7-02.gif",
+			"js/base.js",
+			"css/lib/mui.min.css"
+		],
+		"refer": [
+			"member/AnxiousPart2.html"
+		]
+	},
+	"member/AnxiousPart2.html": {
+		"resources": [
+			"img/7-16.png",
+			"img/7-15.png",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart3.html"
+		]
+	},
+	"member/AnxiousPart3.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart4.html"
+		]
+	},
+	"member/SetBmiInfo.html": {
+		"resources": [
+			"js/base.js",
+			"js/weight.data.js",
+			"css/lib/mui.poppicker.css",
+			"css/lib/mui.picker.css",
+			"js/lib/mui.picker.js",
+			"js/lib/mui.poppicker.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf"
+		]
+	},
+	"member/DepressedPart1.html": {
+		"resources": [
+			"css/Anxious.css",
+			"img/7-14.png",
+			"img/7-01.gif",
+			"img/7-02.gif",
+			"js/base.js"
+		],
+		"refer": [
+			"member/DepressedPart2.html"
+		]
+	},
+	"member/DepressedPart4.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart5.html"
+		]
+	},
+	"member/DepressedPart2.html": {
+		"resources": [
+			"img/7-16.png",
+			"img/7-15.png",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart3.html"
+		]
+	},
+	"member/DepressedPart3.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart4.html"
+		]
+	},
+	"member/MyCardBox.html": {
+		"resources": [
+			"css/card.css",
+			"js/base.js",
+			"img/card.png",
+			"img/icon_rights.png",
+			"js/lib/jquery-2.1.3.min.js",
+			"css/common.css",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/lib/CSSRESET.css",
+			"img/icon_profile.png",
+			"img/profile_bg.jpg"
+		]
+	},
+	"member/MyReportIndex.html": {
+		"resources": [
+			"img/13_10-01.png",
+			"img/13_10-03.png",
+			"img/13_10-02.png",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/style.css",
+			"css/lib/mui.min.css"
+		],
+		"refer": [
+			"member/MyReportRecord.html",
+			"member/MemberDataIndex.html",
+			"member/BasicInfoTest1.html",
+			"member/UploadCaseFiles.html"
+		]
+	},
+	"member/MyReportMenu.html": {
+		"resources": [
+			"img/13_10.png",
+			"img/13_06.png",
+			"img/13_11.png",
+			"img/13_07.png",
+			"img/13_09.png",
+			"img/13_12.png",
+			"img/13_08.png",
+			"img/13_05.png",
+			"img/13_01.png",
+			"css/style.css",
+			"img/13_04.png",
+			"img/13_03.png",
+			"js/base.js"
+		],
+		"refer": [
+			"member/MyReportHealthData.html",
+			"member/MyReportTestResult.html",
+			"member/MyReportAppraisal.html",
+			"member/MyReportMonitorAdvise.html",
+			"member/MyReportMedPlan.html",
+			"member/MyReportSportPlan.html",
+			"member/MyReportFoodPlan.html",
+			"member/MyReportFeelPlan.html",
+			"member/MyReportEnvironment.html",
+			"member/MyReportSleepPlan.html",
+			"member/MyReportHavaSchool.html"
+		]
+	},
+	"member/MyReportRecord.html": {
+		"refer": [
+			"member/MyReportMenu.html"
+		],
+		"resources": [
+			"img/5-07.jpg",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/style.css",
+			"css/lib/mui.min.css"
+		]
+	},
+	"member/MyReportHealthData.html": {
+		"resources": [
+			"css/style.css",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"img/13_01.png"
+		]
+	},
+	"member/MyReportAppraisal.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"img/13_09-11.png",
+			"img/13_09-09.png",
+			"img/13_09-08.png",
+			"img/13_09-05.png",
+			"img/13_09-10.png",
+			"img/13_09-06.png",
+			"img/13_09-04.png",
+			"img/13_09-07.png"
+		]
+	},
+	"member/MyReportMonitorAdvise.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/style.css",
+			"img/13_05.png",
+			"img/13_01.png",
+			"img/13_03_01.png"
+		]
+	},
+	"member/MyReportMedPlan.html": {
+		"resources": [
+			"img/13_02-10.png",
+			"img/13_02-09.png",
+			"img/13_02-08.png",
+			"img/13_02-05.png",
+			"img/13_02-01.png",
+			"img/13_02-07.png",
+			"img/13_02-02.png",
+			"img/13_02-04.png",
+			"img/13_02-03.png",
+			"img/13_02-06.png",
+			"js/public.js",
+			"img/13_03_02.png",
+			"css/style.css",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/vue20.min.js"
+		]
+	},
+	"member/MyReportFoodPlan.html": {
+		"resources": [
+			"img/13_03-04.png",
+			"img/13_03-02.png",
+			"img/13_03-03.png",
+			"img/13_03-01.png",
+			"css/food.css",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/vue20.min.js"
+		]
+	},
+	"member/MyReportFeelPlan.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/style.css"
+		]
+	},
+	"member/MyReportSportPlan.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/13_04-01.png",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"img/13_04-02.png",
+			"css/style.css",
+			"img/13_04-03.png",
+			"img/13_08.png",
+			"img/13_01.png",
+			"img/13_03_04.png"
+		]
+	},
+	"member/MyReportSleepPlan.html": {
+		"resources": [
+			"img/13_06-01.png",
+			"css/style.css",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/vue20.min.js"
+		]
+	},
+	"member/MyReportEnvironment.html": {
+		"resources": [
+			"img/13_07-02.png",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/13_07-04.png",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/style.css",
+			"img/13_07-03.png",
+			"img/13_07-01.png",
+			"img/13_11.png",
+			"img/13_01.png",
+			"img/13_03_07.png"
+		]
+	},
+	"member/MyReportHavaSchool.html": {
+		"resources": [
+			"js/base.js",
+			"img/13_08-01.png",
+			"css/style.css",
+			"img/13_03_08.png"
+		]
+	},
+	"member/MyProjectRecord.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/vue20.min.js",
+			"css/lib/mui.min.css",
+			"js/base.js",
+			"js/public.js",
+			"css/style.css",
+			"img/5-07.jpg"
+		]
+	},
+	"member/MyPlanSet.html": {
+		"resources": [
+			"js/base.js",
+			"img/5-01.png",
+			"img/5-21.png",
+			"img/5-04.png",
+			"img/6-06.png",
+			"img/5-03.png",
+			"img/5-06.png",
+			"img/5-05.png",
+			"img/5-02.png",
+			"img/5-07.png",
+			"js/lib/mui.min.js",
+			"css/lib/mui.min.css",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/style.css"
+		],
+		"refer": [
+			"member/SetCallTime.html"
+		]
+	},
+	"member/SetCallTime.html": {
+		"resources": [
+			"css/lib/mui.picker.css",
+			"js/lib/mui.picker.js",
+			"css/fonts/mui.ttf",
+			"js/lib/mui.picker.min.js",
+			"css/lib/mui.picker.min.css"
+		]
+	},
+	"member/PlanIndex.html": {
+		"resources": [
+			"img/5-14.png",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/style.css",
+			"css/lib/mui.min.css",
+			"img/5-01.png",
+			"img/5-04.png",
+			"img/5-03.png",
+			"img/5-06.png",
+			"img/5-05.png",
+			"img/5-02.png",
+			"img/5-07.png"
+		],
+		"refer": [
+			"member/MedPlanTake.html",
+			"member/DaysFoodRecord.html",
+			"member/SportIndex.html",
+			"member/FeelingIndex.html",
+			"member/SleepIndex.html",
+			"member/DayRecordSum.html",
+			"member/MyPlanSet.html",
+			"member/FoodRecordGrade.html",
+			"member/MonitorSet.html",
+			"member/DeviceList.html"
+		]
+	},
+	"member/MedPlanTake.html": {
+		"resources": [
+			"img/xixi.png",
+			"img/del.png",
+			"css/timepicki.css",
+			"img/5-22.png",
+			"img/5-16.jpg",
+			"img/5-13.png",
+			"img/5-27.jpg",
+			"js/lib/mui.min.js",
+			"css/style.css",
+			"img/5-21.png",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js"
+		],
+		"refer": [
+			"member/MedSetList.html"
+		]
+	},
+	"member/DaysFoodRecord.html": {
+		"resources": [
+			"img/5-01.jpg",
+			"img/11-02.jpg",
+			"img/9-01.png",
+			"img/11-05.jpg",
+			"img/11-02.png",
+			"js/public.js",
+			"img/11-01.png",
+			"img/11-06.jpg",
+			"img/11-03.jpg",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"css/foodopeate.css",
+			"img/11-01.jpg",
+			"img/11-04.jpg",
+			"img/5-13.png"
+		]
+	},
+	"member/SportIndex.html": {
+		"resources": [
+			"js/base.js",
+			"js/public.js",
+			"css/circle.css",
+			"js/lib/zepto.min.js",
+			"css/lib/mui.min.css",
+			"img/next.png",
+			"css/sportOpreate.css",
+			"css/sleepAndMood.css",
+			"css/sm.min.css"
+		],
+		"refer": [
+			"member/SportList.html",
+			"member/NewsMore.html",
+			"member/DeviceList.html"
+		]
+	},
+	"member/SportList.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/5-21.png",
+			"js/lib/mui.min.js",
+			"css/foodopeate.css",
+			"js/public.js"
+		]
+	},
+	"member/NewsMore.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/style.css",
+			"js/lib/hui.js",
+			"img/5-13.png"
+		],
+		"refer": [
+			"member/NewsContent.html"
+		]
+	},
+	"member/NewsContent.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/1-02.png",
+			"js/public.js",
+			"css/style.css",
+			"img/5-01.jpg",
+			"img/5-13.png",
+			"img/1-01.png"
+		]
+	},
+	"member/FeelingIndex.html": {
+		"resources": [
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"js/highcharts.js",
+			"css/sm.min.css",
+			"js/base.js",
+			"js/swiper.jquery.min.js",
+			"img/sad.png",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/cry.png",
+			"css/lib/mui.min.css",
+			"css/feelOpeate.css",
+			"css/chart.css",
+			"img/smile.png",
+			"img/happy.png",
+			"css/sportOpreate.css",
+			"css/sleepAndMood.css",
+			"css/lib/swiper.min.css",
+			"member/NewsMore.html"
+		],
+		"refer": [
+			"member/NewsMore.html"
+		]
+	},
+	"member/SleepIndex.html": {
+		"resources": [
+			"css/sleep.css",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js"
+		]
+	},
+	"member/DayRecordSum.html": {
+		"resources": [
+			"img/9-01.jpg",
+			"js/Charts.js",
+			"css/dayRecord.css",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"img/5-01.jpg",
+			"img/5-13.png"
+		]
+	},
+	"member/MedSetList.html": {
+		"resources": [
+			"img/5-01.jpg",
+			"js/lib/mui.min.js",
+			"css/foodopeate.css",
+			"img/10-01.png",
+			"img/10-03.jpg",
+			"img/10-01.jpg"
+		]
+	},
+	"member/GluDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/sm.min.css",
+			"js/base.js"
+		]
+	},
+	"member/FoodRecordGrade.html": {
+		"resources": [
+			"css/foodopeate.css",
+			"img/5-01.jpg",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"img/5-13.png"
+		]
+	},
+	"member/DeviceList.html": {
+		"resources": [
+			"js/base.js",
+			"img/sblogo.jpg",
+			"img/lexin.jpg",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf",
+			"img/product_pic_1.jpg",
+			"img/product_pic_3.jpg",
+			"css/lib/CSSRESET.css",
+			"css/common.css",
+			"img/product_pic_6.jpg",
+			"img/product_pic_4.jpg",
+			"img/product_pic_8.jpg",
+			"img/product_pic_7.jpg",
+			"css/DeviceList.css",
+			"img/product_pic_5.jpg",
+			"img/product_pic_2.jpg"
+		],
+		"refer": [
+			"member/StepIndex.html"
+		]
+	},
+	"member/NewsIndex.html": {
+		"resources": [
+			"img/4-07.png",
+			"img/5-01.jpg",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/4-08.png",
+			"js/public.js",
+			"css/style.css",
+			"img/4-06.png",
+			"img/4-09.png",
+			"img/5-13.png",
+			"img/4-05.png",
+			"img/4-10.png",
+			"img/4-11.png",
+			"img/4-12.png",
+			"img/4-14.png",
+			"js/lib/hui.js"
+		],
+		"refer": [
+			"member/ArticleContent.html"
+		]
+	},
+	"member/ArticleContent.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/7-03.png",
+			"img/7-02.png",
+			"img/1-02.png",
+			"js/public.js",
+			"css/style.css",
+			"img/12_05.png",
+			"img/7-04.png",
+			"img/5-13.png"
+		]
+	},
+	"member/FamilyAddMemberPart1.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"css/Family.css",
+			"img/7-11.png",
+			"img/33.png",
+			"js/public.js",
+			"img/7-09.png",
+			"img/7-01.jpg",
+			"img/7-10.png"
+		],
+		"refer": [
+			"member/FamilyAddMemberPart2.html",
+			"member/FamilyAddMemberPart3.html"
+		]
+	},
+	"member/FamilyAddMemberPart2.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"css/Family.css",
+			"img/7-12.png",
+			"js/public.js",
+			"img/33.png",
+			"img/7-09.png",
+			"img/7-01.jpg"
+		],
+		"refer": [
+			"member/FamilyAddMember.html"
+		]
+	},
+	"member/FamilyAddMemberPart3.html": {
+		"resources": [
+			"css/Family.css",
+			"img/7-01.png",
+			"js/base.js"
+		],
+		"refer": [
+			"member/FamilyAddMemberPart2.html"
+		]
+	},
+	"member/FamilyAddMember.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/weight.data.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/lib/mui.poppicker.css",
+			"css/lib/mui.picker.css",
+			"js/lib/mui.picker.js",
+			"js/lib/mui.poppicker.js"
+		]
+	},
+	"Index.html": {
+		"resources": [
+			"img/icon_add.png",
+			"img/icon_news.png",
+			"img/index_menu_2.png",
+			"img/index_menu_1.png",
+			"js/public.js",
+			"img/index_menu_5.png",
+			"js/lib/swiper.jquery.min.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"css/index.css",
+			"img/icon_alert.png",
+			"img/icon_tt.png",
+			"img/index_menu_4.png",
+			"img/icon_bubble.png",
+			"img/icon_fire.png",
+			"img/index_card_pic_1.png",
+			"img/index_bg.jpg",
+			"css/lib/swiper.min.css",
+			"img/icon_tag.png",
+			"img/index_menu_8.png",
+			"img/index_menu_3.png",
+			"img/icon_go.png",
+			"img/index_menu_6.png",
+			"img/index_menu_7.png",
+			"js/lib/vue20.min.js",
+			"js/index.js",
+			"js/lib/hui.js",
+			"css/common.css",
+			"js/lib/mui.min.js",
+			"css/lib/CSSRESET.css",
+			"css/lib/huimin.css",
+			"img/_index_news_pic_1.jpg",
+			"img/_index_menu_8.png",
+			"img/_index_menu_5.png",
+			"img/_index_card_pic_1.png",
+			"img/_index_menu_4.png",
+			"img/_index_menu_3.png",
+			"img/_index_menu_6.png",
+			"img/_icon_news.png",
+			"img/icon_close.png",
+			"img/icon_profile.png",
+			"img/_index_menu_7.png",
+			"img/_icon_tag.png",
+			"img/_index_menu_1.png",
+			"img/_icon_bubble.png",
+			"img/_index_menu_2.png",
+			"img/_icon_hat.png"
+		],
+		"refer": [
+			"member/NewsContent.html",
+			"member/FamilyMenu.html",
+			"member/MemberDataIndex.html",
+			"member/UploadCaseFiles.html",
+			"member/DeviceList.html",
+			"member/TestMenu.html",
+			"member/MyReportIndex.html",
+			"member/PlanIndex.html",
+			"member/MyCardBox.html",
+			"member/NewsIndex.html",
+			"member/TopicComment.html",
+			"member/TopicList.html",
+			"member/ArticleContent.html",
+			"member/MyProjectRecord.html",
+			"member/TopicContent.html",
+			"member/Shop.html"
+		]
+	},
+	"member/TopicComment.html": {
+		"resources": [
+			"js/utils.js",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/hui.js",
+			"js/public.js",
+			"css/style.css",
+			"css/lib/huimin.css",
+			"img/12_05.png",
+			"img/5-13.png",
+			"img/4-02.jpg"
+		]
+	},
+	"member/TopicList.html": {
+		"resources": [
+			"img/12_02.png",
+			"img/12_06.png",
+			"js/lib/mui.min.js",
+			"css/style.css",
+			"img/12_08.png",
+			"js/lib/mui.picker.js",
+			"js/lib/mui.poppicker.js",
+			"js/showEdit.js",
+			"css/Topic.css",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/12_03.png",
+			"js/lib/hui.js",
+			"img/12_10.png",
+			"img/12_07.png",
+			"js/artEditor.js",
+			"img/5-13.png",
+			"img/12_05.png",
+			"img/12_09.png",
+			"js/public.js",
+			"img/12_01.jpg",
+			"css/lib/mui.poppicker.css",
+			"css/lib/mui.min.css",
+			"css/lib/mui.picker.css",
+			"js/lib/hui-picker.js",
+			"css/lib/huimin.css",
+			"js/lib/h.min.js"
+		],
+		"refer": [
+			"member/TopicComment.html",
+			"member/TopicContent.html",
+			"member/TopicFollowBox.html",
+			"member/TopicMyReplyList.html",
+			"member/TopicToReplyList.html",
+			"member/TopicMyAskList.html"
+		]
+	},
+	"member/TopicContent.html": {
+		"resources": [
+			"img/12_15.png",
+			"js/showEdit.js",
+			"js/base.js",
+			"css/Topic.css",
+			"js/lib/hui.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/style.css",
+			"js/artEditor.js",
+			"img/12_16.png",
+			"img/12_11.png",
+			"img/12_14.png",
+			"img/12_12.png",
+			"img/12_08.png",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/12_13.png",
+			"img/12_10.png",
+			"img/12_07.png",
+			"img/5-13.png",
+			"img/12_05.png",
+			"img/12_09.png"
+		],
+		"refer": [
+			"member/TopicInToReply.html"
+		]
+	},
+	"member/TopicFollowBox.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/hui.js",
+			"img/3-01.png",
+			"js/public.js",
+			"css/style.css",
+			"css/lib/huimin.css"
+		],
+		"refer": [
+			"member/TopicContent.html"
+		]
+	},
+	"member/TopicMyReplyList.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/hui.js",
+			"js/public.js",
+			"css/style.css"
+		],
+		"refer": [
+			"member/TopicContent.html"
+		]
+	},
+	"member/TopicToReplyList.html": {
+		"resources": [
+			"js/showEdit.js",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"css/Topic.css",
+			"js/lib/hui.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/style.css",
+			"js/artEditor.js"
+		],
+		"refer": [
+			"member/TopicContent.html"
+		]
+	},
+	"member/TopicMyAskList.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/hui.js",
+			"js/public.js",
+			"css/style.css"
+		]
+	},
+	"member/Favorite.html": {
+		"resources": [
+			"img/s2.png",
+			"img/s8.png",
+			"js/base.js",
+			"css/style.css"
+		],
+		"refer": [
+			"member/NewsFollow.html",
+			"member/NewsFavorite.html"
+		]
+	},
+	"member/NewsFollow.html": {
+		"resources": [
+			"css/style.css",
+			"img/5-13.png",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/hui.js",
+			"js/public.js"
+		],
+		"refer": [
+			"member/ArticleContent.html"
+		]
+	},
+	"member/NewsFavorite.html": {
+		"resources": [
+			"css/style.css",
+			"img/5-13.png",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/hui.js",
+			"js/public.js"
+		]
+	},
+	"member/TempDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/sm.min.css",
+			"js/base.js"
+		]
+	},
+	"member/TgDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/lib/mui.min.css",
+			"css/sm.min.css",
+			"js/base.js"
+		]
+	},
+	"member/StepDataShow.html": {
+		"resources": [
+			"js/echarts.min.js",
+			"css/my.css",
+			"js/rili.js",
+			"js/zepto.min.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/font-awesome.min.css",
+			"js/sm.min.js",
+			"css/sm.min.css",
+			"js/base.js",
+			"img/blood.png",
+			"font/fontawesome-webfont.woff2"
+		]
+	},
+	"member/BasicInfoTest4.html": {
+		"resources": [
+			"js/lib/mui.min.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/public.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf"
+		]
+	},
+	"member/EditGreatTest1.html": {
+		"resources": [
+			"js/lib/mui.min.js"
+		]
+	},
+	"member/EditGreatTest3.html": {
+		"resources": [
+			"js/lib/mui.min.js"
+		]
+	},
+	"member/EditGreatTest6.html": {
+		"resources": [
+			"js/lib/mui.min.js"
+		]
+	},
+	"member/EditGreatTest4.html": {
+		"resources": [
+			"js/lib/mui.min.js"
+		]
+	},
+	"member/EditGreatTest5.html": {
+		"resources": [
+			"js/lib/mui.min.js"
+		]
+	},
+	"member/EditGreatTest2.html": {
+		"resources": [
+			"js/lib/mui.min.js",
+			"js/utils.js",
+			"css/fonts/mui.ttf",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/lib/mui.min.css"
+		]
+	},
+	"member/EditGreatTest7.html": {
+		"resources": [
+			"js/lib/mui.min.js"
+		]
+	},
+	"member/AnxiousPart4.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/Anxious.css",
+			"css/lib/mui.min.css"
+		],
+		"refer": [
+			"member/AnxiousPart5.html"
+		]
+	},
+	"member/AnxiousPart5.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/mui.min.js",
+			"js/public.js",
+			"css/Anxious.css",
+			"css/lib/mui.min.css"
+		],
+		"refer": [
+			"member/AnxiousPart6.html"
+		]
+	},
+	"member/DepressedPart6.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart7.html"
+		]
+	},
+	"member/DepressedPart5.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart6.html"
+		]
+	},
+	"member/DepressedPart7.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart8.html"
+		]
+	},
+	"member/DepressedPart14.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart15.html"
+		]
+	},
+	"member/DepressedPart11.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart12.html"
+		]
+	},
+	"member/DepressedPart10.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart11.html"
+		]
+	},
+	"member/DepressedPart13.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart14.html"
+		]
+	},
+	"member/DepressedPart9.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart10.html"
+		]
+	},
+	"member/DepressedPart8.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart9.html"
+		]
+	},
+	"member/DepressedPart12.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart13.html"
+		]
+	},
+	"member/DepressedPart15.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/DepressedPart16.html"
+		]
+	},
+	"member/DepressedPart16.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css",
+			"css/lib/mui.min.css",
+			"img/7-16.png",
+			"img/7-15.png"
+		],
+		"refer": [
+			"member/DepressedPart17.html"
+		]
+	},
+	"member/DepressedPart17.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/m2.png",
+			"img/8-06.png",
+			"img/8-08.png",
+			"img/m1.png",
+			"js/public.js",
+			"css/Anxious.css",
+			"img/8-05.png",
+			"img/8-07.png",
+			"img/yr4.png",
+			"img/8-04.png"
+		]
+	},
+	"member/AnxiousPart6.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart7.html"
+		]
+	},
+	"member/AnxiousPart7.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart8.html"
+		]
+	},
+	"member/AnxiousPart15.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart16.html"
+		]
+	},
+	"member/AnxiousPart13.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart14.html"
+		]
+	},
+	"member/AnxiousPart8.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart9.html"
+		]
+	},
+	"member/AnxiousPart14.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart15.html"
+		]
+	},
+	"member/AnxiousPart12.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart13.html"
+		]
+	},
+	"member/AnxiousPart10.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart11.html"
+		]
+	},
+	"member/AnxiousPart11.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart12.html"
+		]
+	},
+	"member/AnxiousPart9.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart10.html"
+		]
+	},
+	"member/AnxiousPart19.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart20.html"
+		]
+	},
+	"member/AnxiousPart22.html": {
+		"resources": [
+			"img/m5.png",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/jr2.png",
+			"js/public.js",
+			"css/Anxious.css",
+			"img/8-05.png",
+			"img/m0.png",
+			"img/8-07.png",
+			"img/8-01.png"
+		]
+	},
+	"member/AnxiousPart18.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart19.html"
+		]
+	},
+	"member/AnxiousPart16.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart17.html"
+		]
+	},
+	"member/AnxiousPart21.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart22.html"
+		]
+	},
+	"member/AnxiousPart20.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart21.html"
+		]
+	},
+	"member/AnxiousPart17.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"css/Anxious.css"
+		],
+		"refer": [
+			"member/AnxiousPart18.html"
+		]
+	},
+	"member/MyReportTestResult.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/vue20.min.js"
+		]
+	},
+	"member/MonitorSet.html": {
+		"resources": [
+			"img/ok.png",
+			"font/fontawesome-webfont.ttf",
+			"js/zepto.min.js",
+			"css/font-awesome.min.css",
+			"css/Monitor.css",
+			"img/bluebg.png",
+			"css/calendar.css",
+			"css/sm.min.css",
+			"js/public.js",
+			"js/base.js",
+			"js/my-sm.js",
+			"img/nav.png"
+		]
+	},
+	"member/TopicInToReply.html": {
+		"resources": [
+			"img/3.png",
+			"img/3-01.png",
+			"css/style.css",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/hui.js",
+			"js/public.js"
+		]
+	},
+	"member/EditPerInfo.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/lib/ydui.js",
+			"js/lib/hui.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"js/lib/ydui.flexible.js",
+			"css/lib/ydui.css",
+			"css/lib/huimin.css"
+		]
+	},
+	"member/CardIntroduce.html": {
+		"resources": [
+			"js/lib/vue-scroller.min.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/lib/hui.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/lib/huimin.css"
+		],
+		"refer": [
+			"member/CardDetail.html"
+		]
+	},
+	"member/CardDetail.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/lib/hui.js",
+			"js/lib/vue20.min.js",
+			"css/style.css",
+			"css/CardDesc.css",
+			"js/base.js",
+			"css/common.css",
+			"js/public.js",
+			"css/lib/huimin.css"
+		]
+	},
+	"member/MemberInMenu.html": {
+		"resources": [
+			"css/lib/mui.min.css",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/public.js",
+			"js/lib/vue20.min.js"
+		],
+		"refer": [
+			"member/SalesMemberList.html",
+			"member/RegMember.html"
+		]
+	},
+	"member/SalesMemberList.html": {
+		"resources": [
+			"css/lib/Mint.css",
+			"js/lib/vue-infinite-scroll.js",
+			"js/prefixfree.min.js",
+			"js/lib/Mint.js",
+			"css/lib/mui.min.css",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/public.js",
+			"js/lib/vue20.min.js"
+		],
+		"refer": [
+			"member/EditPerInfo.html",
+			"member/BasicInfoTestList.html",
+			"member/ToFileList.html",
+			"member/ShopDoctorList.html",
+			"member/MemberDataIndex.html"
+		]
+	},
+	"member/RegMember.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/lib/ydui.js",
+			"js/lib/hui.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"js/lib/ydui.flexible.js",
+			"css/lib/ydui.css",
+			"js/lib/qs.js",
+			"css/lib/huimin.css",
+			"js/lib/axios.min.js"
+		]
+	},
+	"member/ShopDoctorList.html": {
+		"resources": [
+			"js/lib/Mint.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"css/lib/Mint.css",
+			"js/lib/vue-infinite-scroll.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/lib/mui.min.css",
+			"css/fonts/mui.ttf"
+		]
+	},
+	"member/StepIndex.html": {
+		"resources": [
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/web_sh_ico02.png",
+			"js/public.js",
+			"img/ico02.png",
+			"img/ico01.png",
+			"img/web_sh_ico01.png",
+			"img/jt_ico.png",
+			"css/step.css"
+		],
+		"refer": [
+			"member/StepDayList.html",
+			"member/SF36List.html"
+		]
+	},
+	"member/StepDayList.html": {
+		"resources": [
+			"img/r_ico01.png",
+			"js/base.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/public.js",
+			"img/ico02.png",
+			"img/ico01.png",
+			"css/step.css"
+		]
+	},
+	"member/OpenUrl.html": {
+		"resources": [
+			"js/lib/common.js"
+		]
+	},
+	"member/ShopMemberList.html": {
+		"resources": [
+			"js/lib/vue-infinite-scroll.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"css/lib/mui.min.css",
+			"js/lib/vue-scroller.min.js"
+		],
+		"refer": [
+			"member/EditPerInfo.html",
+			"member/FlowInfoAdd.html",
+			"member/ToFileList.html",
+			"member/ShopDoctorList.html"
+		]
+	},
+	"member/FlowInfoAdd.html": {
+		"resources": [
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/lib/ydui.js",
+			"js/lib/hui.js",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"js/lib/ydui.flexible.js",
+			"css/lib/ydui.css",
+			"css/lib/huimin.css"
+		]
+	},
+	"register.html": {
+		"resources": [
+			"js/lib/qs.js",
+			"img/icon_back.png",
+			"js/lib/hui.js",
+			"css/login.css",
+			"css/common.css",
+			"css/lib/CSSRESET.css",
+			"js/public.js",
+			"js/lib/vue20.min.js",
+			"img/icon_vcode.png",
+			"js/lib/axios.min.js",
+			"js/click.js"
+		],
+		"refer": [
+			"profile.html"
+		]
+	},
+	"forgetpwd.html": {
+		"resources": [
+			"css/common.css",
+			"js/lib/qs.js",
+			"img/icon_back.png",
+			"img/icon_vcode.png",
+			"js/lib/hui.js",
+			"css/login.css",
+			"css/lib/CSSRESET.css",
+			"js/public.js",
+			"js/click.js",
+			"js/lib/vue20.min.js",
+			"js/lib/axios.min.js"
+		]
+	},
+	"profile.html": {
+		"resources": [
+			"img/icon_calind.png",
+			"js/lib/jquery-2.1.3.min.js",
+			"img/icon_height.png",
+			"css/lib/mobiscroll.min.css",
+			"css/common.css",
+			"img/icon_weight.png",
+			"js/lib/mobiscroll.min.js",
+			"img/icon_sex.png",
+			"img/icon_checked.png",
+			"img/icon_name.png",
+			"img/icon_check.png",
+			"js/lib/qs.js",
+			"js/lib/hui.js",
+			"js/public.js",
+			"js/click.js",
+			"js/lib/vue20.min.js",
+			"js/lib/axios.min.js",
+			"css/login.css",
+			"css/lib/CSSRESET.css"
+		],
+		"refer": [
+			"Index.html",
+			"shell.html"
+		]
+	},
+	"member/MemberCheckList.html": {
+		"resources": [
+			"js/lib/qs.js",
+			"js/base.js",
+			"js/lib/jroll-pulldown.js",
+			"css/lib/weui2.css",
+			"css/lib/icon.css",
+			"css/lib/weui.css",
+			"js/lib/jroll-vue-infinite.js",
+			"css/lib/huimin.css",
+			"js/lib/jroll.js",
+			"js/public.js",
+			"js/lib/hui.js",
+			"js/lib/vue20.min.js",
+			"js/lib/axios.min.js",
+			"login.html",
+			"member/EditPerInfo.html",
+			"js/click.js"
+		],
+		"refer": [
+			"login.html",
+			"member/MemberDataIndex.html",
+			"member/EditPerInfo.html",
+			"member/DeviceList.html",
+			"member/RegMember.html",
+			"member/MemberBeCheckList.html",
+			"extLogin.html"
+		]
+	},
+	"member/SingleDataChart.html": {
+		"resources": [
+			"css/DataScroll.css",
+			"img/icon_clock.png",
+			"js/EchartScroll.min.js",
+			"css/DataQuery.css",
+			"js/DataQueryScroll.js",
+			"js/iscroll.js",
+			"css/lib/huimin.css",
+			"css/head.css",
+			"css/DataList.css",
+			"css/reset.css",
+			"js/lib/qs.js",
+			"js/public.js",
+			"js/lib/jroll.js",
+			"js/lib/jquery-2.1.3.min.js",
+			"js/base.js",
+			"js/lib/jroll-pulldown.js",
+			"js/lib/hui.js",
+			"js/lib/vue20.min.js",
+			"js/lib/jroll-vue-infinite.js",
+			"js/lib/axios.min.js"
+		]
+	},
+	"member/MemberBeCheckList.html": {
+		"resources": [
+			"js/lib/qs.js",
+			"css/lib/weui2.css",
+			"css/lib/icon.css",
+			"js/public.js",
+			"js/lib/jroll.js",
+			"js/base.js",
+			"js/lib/jroll-pulldown.js",
+			"css/lib/weui.css",
+			"js/lib/hui.js",
+			"js/lib/vue20.min.js",
+			"css/lib/huimin.css",
+			"js/lib/jroll-vue-infinite.js",
+			"js/lib/axios.min.js"
+		],
+		"refer": [
+			"member/MemberDataIndex.html",
+			"member/DeviceList.html"
+		]
+	}
+}

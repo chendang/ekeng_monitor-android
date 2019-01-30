@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_detect_wifi_failure">DetectWifiFailureActivity</string>
+    <string name="title_activity_detect_wifi_serch">DetectWifiSerchActivity</string>
+    <string name="title_activity_detect_wifi_succ">DetectWifiSuccActivity</string>
+</resources>

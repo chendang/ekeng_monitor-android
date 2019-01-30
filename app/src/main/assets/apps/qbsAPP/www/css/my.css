@@ -1,0 +1,95 @@
+/*!
+ * =====================================================
+ * 自定义样式
+ * 覆盖MSUI样式
+ * 加载在sm.css之后
+ *
+ * MSUI参考：http://m.sui.taobao.org/components/#tabs
+ * =====================================================
+ */
+
+.page .bar{background-color: #79c34b;position: relative;}
+.bar a,.bar a span{color:#fff;}
+.title {color:#fff;}
+.buttons-tab .button.active { color: #000; border-color: #79c34b;  }
+
+.buttons-row{width:50%;margin-left: 25%;margin-top: 0.1rem;}
+.buttons-row .button{color: #fff;border-color: #fff;}
+.buttons-row .button.active{background: #fff;color: #79c34b;}
+
+.content-block {margin:0;padding:0;}
+
+.list-block {margin: 1rem 0;font-size: 0.65rem;}
+.list-block ul li{height: 2rem;line-height: 2rem;}
+.list-block ul li > label{margin-left: 0.7rem;margin-right: 0rem;float: left;}
+.list-block ul li input{width:3rem;font-size:1rem;text-align: center;background:url("../../img/part3/timeBg.png") no-repeat center;border: none;border-radius:0.2rem;color:#888;line-height: 1.2rem;margin: 0.4rem 0.2rem auto 0.2rem;}
+
+/* 日期 */
+div.date{background: #fff;text-align: center;}
+div.date input{padding:0.3rem;line-height: inherit;background:none;border: 0;width:6rem;text-align: center;color:#aaa;letter-spacing:0.08rem}
+div.date i[class*='fa-caret']{color: #79c34b;margin-left: 1rem;margin-right: 1rem;}
+div.date i.max{color:#aaa;}
+div.date i[class*='fa-calendar']{color:#aaa;}
+
+/* 图表 */
+.echart{background:#79c34b;height: 10rem;}
+.echart span{color: #fff;font-size: 0.8rem;margin-top: 0.5rem}
+.echart span.time{margin-left: 0.5rem;float: left;}
+.echart span.date{margin-right: 0.5rem;float: right;}
+.echart-buttom{background:#fff;height: 2.5rem;text-align: center;}
+.echart-buttom h5{margin: 0.25rem auto 0.05rem auto;font-weight: 100;color:#AAA;}
+.echart-buttom h3{margin: 0 auto -0.25rem auto;font-weight: 100;color:#AAA;font-size: 1.2rem;}
+.echart-buttom p{margin: 0rem;font-weight: 100;font-size: 0.6rem;}
+
+/* 睡眠分析 */
+.gradient{width:86%;height:0.5rem;margin-top: 1rem;position: relative;left: 43%;margin-left: -34%;color:#fff;
+border-radius: 0.5rem; -moz-border-radius: 0.5rem;  -webkit-border-radius: 0.5rem;
+background:-webkit-gradient(linear,0% 0%, 100% 0%, from(#99FF00), to(#CC3366), color-stop(0.5,#9966FF));}
+.gradient label{float: left;margin-top: -0.25rem;font-size:0.6rem;}
+
+.sleep-analysis{height: 2.5rem;font-size: 0.6rem;text-align: left;}
+.sleep-analysis .col-33 div {color:#999;font-weight: 100;margin-top: 0.5rem;}
+.sleep-analysis .col-33 div i{margin-left: 20%;}
+.sleep-analysis .col-33 div label,.sleep-analysis .col-33 div span{margin-left: 5%;}
+.sleep-analysis .col-33 p{margin:0;margin-left: 25%;}
+.sleep-analysis .col-33:nth-child(1) i,.sleep-analysis .col-33:nth-child(1) label{color: #99FF00}
+.sleep-analysis .col-33:nth-child(2) i,.sleep-analysis .col-33:nth-child(2) label{color: #9966FF}
+.sleep-analysis .col-33:nth-child(3) i,.sleep-analysis .col-33:nth-child(3) label{color: #CC3366}
+
+/* 血压 */
+.blood{height:15rem;}
+.blood .date{background: none;}
+.blood-info{margin-top:1rem;position:relative;left:50%;margin-left: -6rem;width:12rem;height:12rem;background: url('../img/blood.png') no-repeat;background-size: 100%;text-align: center;color:#79c34b;}
+.blood-info .xl{position:relative;top: 2.5rem;font-size: 1.2rem;}
+.blood-info .xl span{font-size: 1.8rem;}
+.blood-info .xy{position:relative;top: 2rem;font-size: 2.2rem;}
+.blood-info .xy span:nth-child(2){color: #FF9933}
+.blood-info .time{position:relative;margin-top:2rem;font-size: 1rem;color: #999}
+
+.blood-info .xx{position:relative;top: 3.8rem;font-size: 2.2rem;}
+.blood-info .xx span:nth-child(2){color: #FF9933}
+.blood-info .unit{position:relative;top: 3.4rem;font-size: 0.6rem;}
+.blood-info .unit span:nth-child(2){color: #FF9933}
+.blood-info .xxtime{position:relative;margin-top:4rem;font-size: 1rem;color: #999}
+
+/* 血压图表 */
+.blood-chart{}
+.blood-chart div.col-100{background: #fff;}
+.blood-chart div.col-100 .title{position:relative;width:100%;height:2rem;line-height:2rem;margin-left:0.5%;text-align:left;font-size:0.7rem;color:#999;border-bottom: 1px #ccc solid}
+.blood-chart div.col-100 i{position:relative;top:-8.5rem;color:#c4c4c4;font-size:2.5rem;}
+.blood-chart div.col-100 i[class*='left']{float: left;margin-left: 8%;}
+.blood-chart div.col-100 i[class*='right']{float: right;margin-right: 2%;}
+.blood-chart input{position:relative;float:right;top:-1.3rem;width:3rem;text-align: center;border: 1px #ccc solid;color:#aaa;z-index: 9}
+
+/*运动*/
+.xunlian{ margin:10px 0 0 0; height:40px; line-height:40px; border:1px solid #eee; background:#fff; font-size:16px; padding:0 10px;}
+.time{ margin-top:170px; overflow:hidden; z-index:1000; position:absolute; width:100%;}
+.time li{ width:33.33%; text-align:center; color:#fff; float:left;}
+.time img{ margin-right:5px;}
+ul,li{ list-style-type:none;}
+.xueya{ margin-top:10px; background:#fff; border:1px solid #eee; overflow:hidden; padding:0 10px; height:60px; font-size:18px;}
+.xueya_left{ width:70%; float:left; line-height:60px;}
+.xueya_right{ width:28%; float:right; text-align:right; background:url(../../img/part3/14.png) no-repeat right center; height:60px;}
+
+
+

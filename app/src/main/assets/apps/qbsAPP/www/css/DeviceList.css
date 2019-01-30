@@ -1,0 +1,18 @@
+/* CSS Document */
+body{ background: #f4f4f4; }
+
+.wrapper{ top:0rem; }
+
+.sec h2{ height: 3.8rem; line-height: 3.8rem; position: relative; text-align: center;}
+.sec h2:after{ content:""; width:70%; height: 1px; background: #e92f30; 
+position: absolute; left:50%; top:50%; transform: translate(-50%,-50%); -wekbit-transform: translate(-50%,-50%);}
+.sec h2 span{  padding:0 2rem; font-size: 1.6rem; color:#e92f30; margin:0 auto; background: #f4f4f4;
+display:inline-block; z-index: 101; position: relative;} 
+
+.ul_product li{ width:50%; padding:0.2rem 0.4rem; box-sizing: border-box; float:left; }
+.ul_product li:nth-of-type(2n+1){ padding-right:0.2rem;}
+.ul_product li:nth-of-type(2n+2){ padding-left:0.2rem;}
+.ul_product img{ width:100%;}
+.ul_product h4{ height: 3.0rem; line-height: 3.0rem; background: #fff; font-size: 1.3rem; padding:0 1rem; 
+white-space:nowrap;text-overflow:ellipsis;overflow:hidden; }
+.ul_product h4 i{ font-size: 0.9rem; vertical-align: bottom; color:#777; display: inline-block; margin-left:0.4rem;}

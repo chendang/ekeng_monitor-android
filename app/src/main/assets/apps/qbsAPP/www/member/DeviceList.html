@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head>
+<title>智能设备</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no" >
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />  
+<link rel="stylesheet" type="text/css" href="../css/lib/CSSRESET.css">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/DeviceList.css">
+
+<style>
+	[v-cloak]{ display: none; }
+	.title {
+				margin: 20px 15px 10px;
+				color: #6d6d72;
+				font-size: 15px;
+	}
+</style>
+</head>
+<body>
+    <div class="_container">
+
+        <article class="wrapper">
+            <div class="main">
+
+                <div class="sec">
+                    <h2><span>OTC十参数监测设备</span></h2>
+
+                    <ul class="ul_product clearfix">
+                        <li onclick="BindDeviceBluOtc('0')">
+                            <a>
+                                <img src="../img/product_pic_1.jpg" alt="" />
+                                <h4><em>血糖分析仪</em><i>监测血糖指数</i></h4>
+                            </a>
+                        </li>
+
+                        <li onclick="BindDeviceBluOtc('1')">
+                            <a>
+                                <img src="../img/product_pic_2.jpg" alt="" />
+                                <h4><em>血压计</em><i>监测血压</i></h4>
+                            </a>
+                        </li>
+                        
+                        <li onclick="BindDeviceBluOtc('2')">
+                            <a>
+                                <img src="../img/product_pic_3.jpg" alt="" />
+                                <h4><em>体温计</em><i>监测体温</i></h4>
+                            </a>
+                        </li>
+                        <li onclick="BindDeviceBluOtc('3')">
+                            <a>
+                                <img src="../img/product_pic_4.jpg" alt="" />
+                                <h4><em>血氧仪</em><i>监测血氧</i></h4>
+                            </a>
+                        </li>
+                        <li onclick="BindDeviceBluOtc('5')">
+                            <a>
+                                <img src="../img/product_pic_5.jpg" alt="" />
+                                <h4><em>体重仪</em><i>监测体重</i></h4>
+                            </a>
+                        </li>
+                        <!--<li onclick="BindDeviceBluOtc('6')">
+                            <a>
+                                <img src="../img/product_pic_6.jpg" alt="" />
+                                <h4><em>尿酸仪</em><i>监测尿酸</i></h4>
+                            </a>
+                        </li>-->
+                        <li onclick="BindDeviceBluOtc('4')">
+                            <a>
+                                <img src="../img/product_pic_6.jpg" alt="" />
+                                <h4><em>血脂仪</em><i>监测血脂</i></h4>
+                            </a>
+                        </li>
+
+                        <li onclick="BindDeviceBluOtc('9')">
+                            <a>
+                                <img src="../img/product_pic_9.png" alt="" width="120" height="140"/>
+                                <h4><em>体脂称</em><i>监测体脂</i></h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </article>
+        <!-- wrapper End -->
+    </div>
+</body>
+<script src="../js/lib/mui.min.js" type="text/javascript"></script>
+<script src="../js/base.js" type="text/javascript"></script>
+<script src="../js/public.js" type="text/javascript"></script>
+<script>
+	
+	
+
+
+var username=null;  
+var sex="";
+var birthday="";
+function plusReady() { 
+var _self = plus.webview.currentWebview();
+username=_self.UserName;
+sex=_self.sex;
+birthday=_self.birthday;
+if(username==null || username==''){
+		               plus.nativeUI.toast("参数错误，请返回重新选择");
+					setTimeout(function() {
+						plus.webview.currentWebview().close();
+					}, 500);
+}
+HeadShow();
+
+BindDeviceReady();
+
+back();
+}
+
+if(window.plus){  
+plusReady();  
+}else{  
+document.addEventListener("plusready",plusReady,false);  
+} 
+	
+	
+		
+function BindDeviceReady(){
+
+// 声明的JS“扩展插件别名”
+    var _BARCODE = 'plugintest',
+        B = window.plus.bridge;
+    var plugintest =
+{
+    	PluginTestFunction : function (Argus1, Argus2, successCallback, errorCallback )
+		{
+			var success = typeof successCallback !== 'function' ? null : function(args)
+			{
+				successCallback(args);
+			},
+			fail = typeof errorCallback !== 'function' ? null : function(code)
+			{
+				errorCallback(code);
+			};
+			callbackID = B.callbackId(success, fail);
+
+			return B.exec(_BARCODE, "PluginTestFunction", [callbackID, Argus1, Argus2]);
+		},
+         // 声明同步返回方法
+        PluginTestFunctionSync : function (Argus1, Argus2, Argus3, Argus4)
+        {
+            // 通知Native层plugintest扩展插件运行“PluginTestFunctionSync”方法并同步返回结果
+            return B.execSync(_BARCODE, "PluginTestFunctionSync", [Argus1, Argus2, Argus3, Argus4]);
+        }
+    };
+    window.plus.plugintest = plugintest;
+};
+
+
+function BindDeviceBluOtc(Tval){
+	plus.nativeUI.showWaiting( "正在开启蓝牙设备..." ); 
+	 var Intent = plus.android.importClass("android.content.Intent");
+	 var Bundle = plus.android.importClass("android.os.Bundle");
+	 var main = plus.android.runtimeMainActivity();
+	 var TodoActivity =plus.android.importClass("com.cnnet.otc.health.activities.DetectBle3Activity");
+	
+	 TodoActivity = plus.android.importClass("com.cnnet.otc.health.activities.DetectBle3Activity");
+		//血氧蓝牙4.0设备
+		if(Tval =='0'){
+			TodoActivity = plus.android.importClass("com.cnnet.otc.health.activities.DetectBle2Activity");
+		}
+		if(Tval =='3'){
+			TodoActivity = plus.android.importClass("com.cnnet.otc.health.activities.DetectBle4Activity");
+		}
+		if(Tval =='4'){
+			TodoActivity = plus.android.importClass("com.cnnet.otc.health.activities.DetectBle5Activity");
+		}
+		if(Tval =='9'){
+			TodoActivity = plus.android.importClass("com.kingnewblesdk.ScanActivity");
+		}
+		var intent = new Intent(main, TodoActivity.class);
+		var bundle = new Bundle();
+		//传设备类型和会员号
+		bundle.putString("DEIVCE_TYPE",Tval);
+		bundle.putString("EXTRA_MEMBER_UNIQUEKEY",username);
+		bundle.putString("sex",sex);
+		bundle.putString("birthday",birthday);
+		intent.putExtras(bundle);
+		main.startActivity(intent);
+       plus.nativeUI.closeWaiting(); 
+}
+
+
+
+
+function BindDeviceWiFiLx(Tval){
+	
+var Intent = plus.android.importClass("android.content.Intent");
+var Bundle = plus.android.importClass("android.os.Bundle");
+var main = plus.android.runtimeMainActivity();
+var TodoActivity =plus.android.importClass("com.foxchen.qbs.health.activities.DetectWifiGuideActivity");
+var intent = new Intent(main, TodoActivity.class);
+var bundle = new Bundle();
+	//传设备类型和会员号
+bundle.putString("DEIVCE_TYPE",Tval);
+bundle.putString("EXTRA_MEMBER_UNIQUEKEY",username);
+intent.putExtras(bundle);
+main.startActivity(intent);
+}
+
+
+
+
+
+function startActivity(type)
+{
+           var Intent = plus.android.importClass("android.content.Intent");
+           var Bundle = plus.android.importClass("android.os.Bundle");
+           var main = plus.android.runtimeMainActivity();
+           var TodoActivity = plus.android.importClass("com.cnnet.otc.health.activities.DetectBle3Activity");
+           //血氧蓝牙4.0设备
+           if(type=='0'){
+             TodoActivity = plus.android.importClass("com.cnnet.otc.health.activities.DetectBle2Activity");
+           }
+           if(type=='3'){
+             TodoActivity = plus.android.importClass("com.cnnet.otc.health.activities.DetectBle4Activity");
+           }
+           var intent = new Intent(main, TodoActivity.class);
+		   var bundle = new Bundle();
+		   //传设备类型和会员号
+		   bundle.putString("DEIVCE_TYPE",type);
+		   bundle.putString("EXTRA_MEMBER_UNIQUEKEY",username);
+           intent.putExtras(bundle);
+			main.startActivity(intent);
+}
+
+
+
+function pluginShow(sn) {
+			plus.nativeUI.showWaiting("正在连接设备...请稍等!");
+			plus.plugintest.PluginTestFunction(sn,username,
+				function(res){
+					if(res == "0"){
+						plus.nativeUI.toast("设备连接成功.",{duration:"long"});
+						 plus.nativeUI.closeWaiting();
+						clicked('StepIndex.html',true);
+					}
+					if(res == "1"){
+						plus.nativeUI.toast("根据SN,未获取到设备注册信息.",{duration:"long"});
+						plus.nativeUI.closeWaiting();
+					}
+					if(res == "2"){
+						plus.nativeUI.toast("未找到设备!",{duration:"long"});
+						plus.nativeUI.closeWaiting();
+					}
+					if(res == "3"){
+						plus.nativeUI.toast("数据未同步到云端!",{duration:"long"});
+						plus.nativeUI.closeWaiting();
+					}
+					if(res == "4"){
+						//未开通蓝牙跳转到系统开通蓝牙界面
+						plus.nativeUI.toast("未开通蓝牙!",{duration:"long"});
+						plus.nativeUI.closeWaiting();
+
+					}
+					if(res == "5"){
+						plus.nativeUI.alert("蓝牙设备不支持4.0");
+						plus.nativeUI.closeWaiting();
+					}
+					if(res == "-1"){
+						plus.nativeUI.alert("未找到设备!");
+						plus.nativeUI.closeWaiting();
+					}
+				},
+				function(result){
+					alert("fail:"+result);
+					plus.nativeUI.closeWaiting();
+				});
+}
+
+function pluginGetString(sn)
+        {
+        	plus.nativeUI.showWaiting("正在连接设备...请稍等!");
+        	var res=plus.plugintest.PluginTestFunctionSync(sn,username);
+        	//返回几种情况 0 成功同步到云端 1 根据SN 未获取到Mac 2  未找到设备 3 未同步到云端 4、未开通蓝牙 5、蓝牙设备不支持4.0
+        	plus.nativeUI.toast("返回结果："+res,{duration:"long"});
+        	if(res == "0"){
+        		plus.nativeUI.toast("成功同步到云端!",{duration:"long"});
+        		 plus.nativeUI.closeWaiting();
+				clicked('StepIndex.html',true);
+        	}
+        	if(res == "1"){
+        		plus.nativeUI.toast("根据SN 未获取到Mac!",{duration:"long"});
+        		plus.nativeUI.closeWaiting();
+        	}
+        	if(res == "2"){
+        		plus.nativeUI.toast("未找到设备!",{duration:"long"});
+        		 plus.nativeUI.closeWaiting();
+        	}
+        	if(res == "3"){
+        		plus.nativeUI.toast("数据未同步到云端!",{duration:"long"});
+        		 plus.nativeUI.closeWaiting();
+        	}
+        	if(res == "4"){
+        		//未开通蓝牙跳转到系统开通蓝牙界面
+        		plus.nativeUI.toast("未开通蓝牙!",{duration:"long"});
+        		 plus.nativeUI.closeWaiting();
+
+        	}
+        	if(res == "5"){
+				plus.nativeUI.alert("蓝牙设备不支持4.0");
+				plus.nativeUI.closeWaiting();
+        	}
+			if(res == "-1"){
+				plus.nativeUI.alert("未找到设备!");
+				plus.nativeUI.closeWaiting();
+			}
+        }
+
+
+		</script>
+	</script>
+
+</html>

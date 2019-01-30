@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="xlistview_header_hint_normal">Pull down to refresh</string>
+    <string name="xlistview_header_hint_ready">Release to refresh</string>
+    <string name="xlistview_header_hint_loading">Loading...</string>
+    <string name="xlistview_header_last_time">Last update time</string>
+    <string name="xlistview_footer_hint_normal">Pull up to see more</string>
+    <string name="xlistview_footer_hint_ready">Release to load more</string>
+	<string name="xlistview_footer_hint_load_more">Loading ...</string>
+	<string name="xlistview_footer_hint_load_end">Load complete</string>
+	<string name="xlistview_footer_hint_no_data">没有数据</string>
+</resources>

@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+*{ list-style:none; border:0}
+
+
+body{ font-size:14px;font-family:'黑体';}
+
+
+
+
+
+
+
+
+.menu1{ margin:3px 6px 0 6px; background:#fff;}
+.menu1 ul{ padding:2px 0;}
+.menu1 ul li{ color:#727272; line-height:36px; font-size:1.1em; margin:0 20px; border-bottom:1px solid #e9e8e8;}
+.menu1 ul li:last-child{ border-bottom:none}
+.menu1 ul li abbr{ color:#666666; font-size:1.5em; float:right; margin-right:6px;}
+/* me */
+
+.menu2{ margin:2px 6px 0 6px;background:#fff;}
+.menu2 ul{ padding:2px 0;}
+.menu2 ul li{ color:#727272; line-height:36px; font-size:1.1em; margin:0 20px; border-bottom:1px solid #e9e8e8;}
+.menu2 ul li:last-child{ border-bottom:none}
+.menu2 ul li abbr{ color:#666666; font-size:1.5em; float:left; margin-right:126px;}
+/* me2 */
+
+.menu3{ margin:2px 6px 0 6px;background:#fff;}
+.menu3 ul{ padding:2px 0;}
+.menu3 ul li{ color:#727272; line-height:36px; font-size:1.1em; margin:0 20px; border-bottom:1px solid #e9e8e8;}
+.menu3 ul li:last-child{ border-bottom:none}
+.menu3 ul li abbr{ color:#666666; font-size:1.5em; float:left; margin-right:126px;}
+/* me2 */
+
+.menu4{ margin:2px 6px 0 6px;background:#fff;}
+.menu4 ul{ padding:2px 0;}
+.menu4 ul li{ color:#727272; line-height:36px; font-size:1.1em; margin:0 20px; border-bottom:1px solid #e9e8e8;}
+.menu4 ul li:last-child{ border-bottom:none}
+.menu4 ul li abbr{ color:#666666; font-size:1.5em; float:left; margin-right:126px;}
+/* me2 */
+
+
+.menu5{ margin:2px 6px 0 6px;background:#fff;}
+.menu5 ul{ padding:2px 0;}
+.menu5 ul li{ color:#727272; line-height:36px; font-size:1.1em; margin:0 20px;text-align:right; border-bottom:1px solid #e9e8e8;}
+.menu5 ul li:last-child{ border-bottom:none}
+.menu5 ul li span{  float:right;}
+.menu5 ul li abbr{ color:#666666; font-size:1.5em; float:right; margin-right:126px;}
+/* me2 */
+
+.me_address{ display:-webkit-box; margin:10px 6px 0 6px; border:1px solid #d8d9d9; border-radius:6px; background:#fff;}
+.me_address ul { width:100%;}
+.me_address ul li{ line-height:40px; color:#aeadad; font-size:1.1em; border-bottom:1px solid #d7d7d7; margin:0 20px; }
+.me_address ul li span{ float:left; margin:1px 8px 0 0;}
+.me_address ul li:last-child{ text-align:center; border-bottom:none}
+.me_address ul li abbr{ color:#666666; font-size:1.5em; float:right; margin-right:6px;}
+/* me_address */
+

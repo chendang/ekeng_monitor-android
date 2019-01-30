@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/login_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_hight"
+        android:background="@color/top_bar_color"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/add_member_back_btn"
+            android:layout_width="@dimen/top_back_btn_width"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="@drawable/xml_login_main_btn_back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="@string/add_member_title"
+            android:textColor="#fefefe"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_add_member_head"
+            android:layout_width="@dimen/add_member_head_w_h"
+            android:layout_height="@dimen/add_member_head_w_h"
+            android:layout_margin="@dimen/add_member_head_margin"
+            android:scaleType="centerInside"
+            android:src="@mipmap/img_default_head" />
+        <TextView
+            android:id="@+id/tv_add_member_head_click"
+            android:text="@string/click_to_upload_image"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:layout_margin="@dimen/add_member_head_margin"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/add_member_head_margin"
+        android:layout_marginRight="@dimen/add_member_head_margin"
+        android:padding="@dimen/add_member_head_margin"
+        android:stretchColumns="1"
+        >
+        <TableRow android:id="@+id/tr_with_doctor" android:gravity="center_vertical" android:visibility="gone">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textSize="@dimen/add_member_text_size"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/with_doctor"/>
+            <Spinner
+                android:id="@+id/sp_add_member_withDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:textSize="@dimen/add_member_text_size"
+                android:gravity="center_vertical|right"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:spinnerMode="dropdown" />
+        </TableRow>
+        <TableRow android:gravity="center_vertical" android:layout_marginBottom="1dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textSize="@dimen/add_member_text_size"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/name"/>
+            <EditText
+                android:id="@+id/et_add_member_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:textSize="@dimen/add_member_text_size"/>
+        </TableRow>
+        <TableRow android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/add_member_text_size"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/gender"/>
+            <Spinner
+                android:id="@+id/sp_add_member_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:textSize="@dimen/add_member_text_size"
+                android:gravity="center_vertical|right"
+                android:entries="@array/gender_text"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:spinnerMode="dropdown"></Spinner>
+        </TableRow>
+        <TableRow android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/add_member_text_size"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/mobile"/>
+            <EditText
+                android:id="@+id/et_add_member_telephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:inputType="phone"
+                android:textSize="@dimen/add_member_text_size" />
+        </TableRow>
+        <TableRow android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/add_member_text_size"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/birthday"/>
+            <TextView
+                android:id="@+id/et_add_member_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:inputType="date"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:textSize="@dimen/add_member_text_size" />
+        </TableRow>
+        <TableRow android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/add_member_text_size"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/landline"/>
+            <EditText
+                android:id="@+id/et_add_member_landline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:textSize="@dimen/add_member_text_size" />
+        </TableRow>
+        <TableRow android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/add_member_text_size"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/idnumber"/>
+            <EditText
+                android:id="@+id/et_add_member_idnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:textSize="@dimen/add_member_text_size" />
+        </TableRow>
+        <TableRow android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textSize="@dimen/add_member_text_size"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/ssn"/>
+            <EditText
+                android:id="@+id/et_add_member_ssn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:textSize="@dimen/add_member_text_size" />
+        </TableRow>
+        <TableRow android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textSize="@dimen/add_member_text_size"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/address"/>
+            <EditText
+                android:id="@+id/et_add_member_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:textSize="@dimen/add_member_text_size" />
+        </TableRow>
+        <TableRow android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/add_member_info_margin"
+                android:textSize="@dimen/add_member_text_size"
+                android:textColor="@android:color/tertiary_text_dark"
+                android:text="@string/anamnesis"/>
+            <EditText
+                android:id="@+id/et_add_member_anamnesis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/add_member_info_margin"
+                android:background="@drawable/bg_edittext_selector"
+                android:textSize="@dimen/add_member_text_size" />
+        </TableRow>
+        <TableRow android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/iv_add_member_confirm"
+                    android:layout_width="@dimen/add_member_head_w_h"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/btn_grid_item_padding_h"
+                    android:layout_margin="@dimen/add_member_head_margin"
+                    android:text="@string/confirm"
+                    android:textSize="@dimen/add_member_text_size"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_blue"></Button>
+
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/add_member_head_margin"
+    android:stretchColumns="1"
+    >
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:text="@string/ins_uric_acid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            />
+        <EditText
+            android:id="@+id/dialog_uric_acid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:numeric="decimal"
+            android:inputType="number"
+            android:textSize="18sp"
+            android:padding="@dimen/my_dialog_et_padding"
+            android:layout_margin="@dimen/add_member_info_margin"
+            android:textColor="@color/alertex_dlg_edit_text_color"
+            android:background="@drawable/herily_alertex_dlg_textinput_drawable"/>
+        <TextView
+            android:text="mmol/dL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/fg_home_bar_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_hight"
+        android:background="@color/top_bar_color"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/top_back_btn_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/xml_login_main_btn_back" />
+
+        <TextView
+            android:id="@+id/tv_detect_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="5"
+            android:text="@string/home_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_main_title_size" />
+
+        <Button
+            android:id="@+id/bt_detect_connect"
+            android:layout_width="@dimen/top_back_btn_width"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_main_title_size"
+            android:text="连接"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detect_draw_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_gradient_detect">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/bt_click_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/add_member_info_margin"
+            android:layout_marginBottom="@dimen/add_member_info_margin"
+            android:text="@string/SAMPLE"
+            android:textSize="@dimen/add_member_text_size"
+            android:textColor="@color/white"
+            android:padding="@dimen/btn_grid_item_padding_h"
+            android:background="@drawable/btn_blue"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:divider="@color/list_line"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false" />
+</LinearLayout>

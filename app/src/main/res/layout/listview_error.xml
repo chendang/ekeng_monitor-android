@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/rl"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/error_message"
+        android:drawableTop="@drawable/ic_error"
+        android:drawablePadding="10dp"
+        android:textColor="@color/text_grey"
+        android:textAppearance="?android:attr/textAppearanceMedium"        
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/error_button"
+         android:textColor="@color/text_grey"
+          android:padding="10dp"
+          android:background="@drawable/btn_white_grey_stroke"
+        android:layout_marginTop="60dp" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grid_view_item_line">#ACACAC</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="light_grey">#fff1f1f1</color>
+    <color name="btn_gray_bg">#fff3f3f3</color>
+    <color name="btn_pressed_gray_bg">#ffcfcfcf</color>
+    <color name="text_green">#ff4c5c64</color>
+    <color name="top_bar_color">#50a4e3</color>
+    <color name="list_line">#f0f0f0</color>
+    <color name = "text_grey">#ff9fa0a0</color>
+
+    <color name="listview_item_color">#FFFFFF</color>
+    <color name="listview_item_down_color">#E7E7E7</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_line_xy">#FF986E</color>
+    <color name="color_limit_line">#FFB176</color>
+
+    <color name="popupwindow_background">#E0F0F0F0</color>
+    <color name="numberpicker_line">#F08200</color>
+    <color name="numberpicker_text">#F08200</color>
+    <color name="year">#00A0E9</color>
+    <color name="button_background">#00A0E9</color>
+    <color name="button_text">#FFFFFF</color>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="devices">
+        <item>Blood glucose</item>
+        <item>Blood pressure</item>
+        <item>Temperature</item>
+        <item>Oximetry</item>
+        <item>Lipid</item>
+        <item>Weight</item>
+        <item>Uric acid</item>
+        <item>LS WIFI BLOOD PRESSURE</item>
+        <item>LS WIFI WEIGHT</item>
+    </string-array>
+    <string-array name="device_codes">
+        <item>血糖</item>
+        <item>血压</item>
+        <item>体温</item>
+        <item>血氧</item>
+        <item>血脂</item>
+        <item>体重</item>
+        <item>尿酸</item>
+        <item>乐心血压计</item>
+        <item>乐心体重秤</item>
+    </string-array>
+
+    <string-array name="gender_text">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="gender_value">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+
+</resources>

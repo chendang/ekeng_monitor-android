@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?android:attr/colorBackground">
+    <LinearLayout
+        android:id="@+id/infoBar00"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:elevation="1dp">
+    <TextView
+        android:id="@+id/titleid"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请您在测试前准确填写以下信息"
+        android:textColor="@android:color/holo_blue_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/infoBar0"
+        android:layout_below="@id/infoBar00"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:layout_marginEnd="10px"
+        android:layout_marginStart="10px"
+        android:layout_marginTop="40dp">
+        <TextView
+                 android:text="id:"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                android:visibility="gone"/>
+         <EditText
+                 android:id="@+id/idEt"
+                 android:text="hdr"
+                 android:layout_width="60dp"
+                 android:layout_height="wrap_content"
+             android:visibility="gone"/>
+
+        <TextView
+            android:text="身高:"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/heightEt"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="170"
+
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/infoBar1"
+        android:orientation="horizontal"
+        android:layout_below="@id/infoBar0"
+        android:layout_marginStart="10px"
+        android:layout_marginEnd="10px"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light">
+
+
+        <TextView
+            android:text="性别:"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/sexRG"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:text="男"
+                android:id="@+id/sexMan"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/sexWoman"
+                android:text="女"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/infoBar2"
+        android:layout_below="@id/infoBar1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light"
+        android:layout_marginEnd="10px"
+        android:layout_marginLeft="10px">
+        <TextView
+            android:id="@+id/birthdayTv"
+            android:layout_marginStart="10dp"
+            android:text="生日:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <!-- <DatePicker
+                android:id="@+id/dpPicker"
+                 android:calendarViewShown="false"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />-->
+
+        <!--<EditText
+                android:id="@+id/birthdayEt"
+                android:hint="YYYY-M-d"
+                android:text="1990-1-1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>-->
+        <TextView
+            android:id="@+id/birthdayEt"
+            android:gravity="center_vertical"
+            android:hint="YYYY-M-d"
+            android:text="1990-1-1"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/infoBar3"
+        android:layout_below="@id/infoBar2"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:layout_marginEnd="10px"
+        android:layout_marginStart="10px"
+        android:layout_marginBottom="10px">
+       <TextView
+        android:id="@+id/hisBtn"
+        android:text="查看历史评估"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:textColor="@color/text_green"
+           android:visibility="gone"/>
+        <Button
+            android:id="@+id/scanBtn"
+            android:text="开始扫描"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="0dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginBottom="20px" />
+       <!-- <Button
+            android:id="@+id/hisBtn"
+            android:text="查看历史记录"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="0dp"
+            android:layout_marginTop="@dimen/item_touch_helper_max_drag_scroll_per_frame"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginBottom="20px" />-->
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_below="@id/infoBar0"
+        android:layout_height="1px"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#000000" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_below="@id/infoBar1"
+        android:layout_height="1px"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#000000" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_below="@id/infoBar2"
+        android:layout_height="1px"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:id="@+id/infoBar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoBar2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="扫描模式" />
+
+        <RadioGroup
+            android:id="@+id/scanMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/scanModeFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="首次" />
+
+            <RadioButton
+                android:id="@+id/scanModeAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="每次" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:labelFor="@+id/storageModeCb"
+            android:text="是否接收存储数据" />
+
+        <CheckBox
+            android:id="@+id/storageModeCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/infoBar_steady"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoBar4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/infoBar5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/infoBar_steady"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="重量单位" />
+
+            <RadioGroup
+                android:id="@+id/measureUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/kg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="公斤(kg)" />
+
+                <RadioButton
+                    android:id="@+id/lb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="磅(lb)" />
+
+                <RadioButton
+                    android:id="@+id/jin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="斤" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="是否开启体脂率稳定算法" />
+
+        <RadioGroup
+            android:id="@+id/steadyEnable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/steadyOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="开启" />
+
+            <RadioButton
+                android:id="@+id/steadyClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关闭" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/infoBar3"
+        android:layout_marginTop="60px"
+        android:elevation="1dp"
+        android:background="@android:color/background_light" />
+
+
+</RelativeLayout>

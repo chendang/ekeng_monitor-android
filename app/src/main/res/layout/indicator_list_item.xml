@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:divider="@drawable/permission_dialog_line"
+    android:showDividers="middle"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:textSize="16sp"
+        android:layout_width="0.0px"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:gravity="left" />
+    <TextView
+        android:id="@+id/valueTv"
+        android:textSize="16sp"
+        android:layout_width="0.0px"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:gravity="left" />
+
+
+
+    <TextView
+        android:id="@+id/remarkTv"
+        android:textSize="16sp"
+        android:layout_width="0.0px"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="left" />
+
+</LinearLayout>

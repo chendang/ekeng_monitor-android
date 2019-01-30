@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detect_wifi_succ"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".health.activities.DetectWifiSuccActivity"
+    android:background="@drawable/bg_edittext_normal">
+
+    <LinearLayout
+        android:id="@+id/fg_home_bar_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/top_bar_color"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/top_back_btn_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/xml_login_main_btn_back" />
+
+        <TextView
+            android:id="@+id/tv_detect_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_ls_wifi_blood_pressure_succ"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_main_title_size"
+            android:gravity="center"
+            android:layout_marginRight="60dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="配网成功"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detectwifisucc"
+        android:gravity="center"
+        android:layout_weight="0.8"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext_normal"
+        android:layout_weight="0.1">
+
+        <Button
+            android:text="添加新设备"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:background="@drawable/btn_blue"
+            android:layout_weight="0.5"
+            android:layout_marginRight="15dp" />
+
+        <Button
+            android:text="返回"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:background="@drawable/btn_blue"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="0.0dip"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:paddingLeft="@dimen/btn_grid_item_padding_h"
+        android:paddingRight="@dimen/btn_grid_item_padding_h"
+        android:paddingTop="@dimen/btn_grid_item_padding_v"
+        android:paddingBottom="@dimen/btn_grid_item_padding_v">
+
+        <ImageView
+            android:id="@+id/iv_item"
+            android:layout_width="@dimen/btn_grid_view_width"
+            android:layout_height="@dimen/btn_grid_view_width"
+            android:src="@mipmap/btn_tp_pressed"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tv_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_item"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5.0dip"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="14.0sp" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_state"
+        android:layout_width="@dimen/btn_grid_state_w_h"
+        android:layout_height="@dimen/btn_grid_state_w_h"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_device_ins_wait"
+        android:layout_margin="@dimen/btn_grid_state_margin"/>
+
+</RelativeLayout>

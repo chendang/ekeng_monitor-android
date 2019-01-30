@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+<title>健康Q博士监测版登录</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no" >
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />  
+<link rel="stylesheet" type="text/css" href="css/lib/CSSRESET.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<link rel="stylesheet" type="text/css" href="css/lib/huimin.css">
+</head>
+<body>
+	<div class="_container" id="bodyinfo">
+	    
+	    <!--<header class="header">
+            <a href="javascript:;" class="a_back"></a>
+	        <h1>登录</h1>
+	        
+	    </header>-->
+	    <!-- header -->
+	
+		<article class="wrapper">
+            <img src="img/icon_logo.png" alt="" class="img_logo" />
+            
+            <div class="panel">
+                <div class="account">
+                    <span></span>
+                    <input type="text" placeholder="手机/用户名" v-model="LoginUser"/>
+                </div>
+                
+                <div class="password">
+                    <span></span>
+                    <input type="password" placeholder="密码" v-model="LoginPass"/>
+                </div>
+                
+                <input type="button" value="登录" class="btn_login" @click="PostSend()" id="PostSend"//>
+ 
+
+            </div>
+		</article>
+		<!-- wrapper End -->
+	</div>
+</body>
+
+<script src="js/click.js"></script>
+<script src="js/public.js" type="text/javascript"></script>
+<script src="js/lib/vue20.min.js"></script>
+<script src="js/lib/hui.js"></script>
+<script src="js/lib/axios.min.js"></script>
+
+
+<script>
+
+
+var domainUrl = GetMvcApiDomain();
+function plusReady(){
+	plus.screen.lockOrientation("portrait-primary");
+	
+
+	
+	
+	
+    vum=new Vue({
+        el: '#bodyinfo',
+        data: function(){
+        return {
+            LoginUser: "",
+            LoginPass: ""
+        }
+        },
+
+        mounted: function () {
+
+            this.$nextTick(function () {
+
+            })
+
+        },
+
+        methods: {
+
+
+
+            PostSend: function () {
+
+
+
+
+                if (this.LoginUser == "" || this.LoginUser == null) {
+                    hui.upToast('请输入用户名!');
+                    return false;
+                }
+
+
+
+                if (this.LoginPass == "" || this.LoginPass == null) {
+                    hui.upToast('请输入登陆密码!');
+                    return false;
+                }
+
+
+
+                
+                this.addInterceptors();
+                this.SendSave(this.LoginUser,this.LoginPass)
+            },
+            SendSave: function (LoginName, LoginPass) {
+                var that = this;
+                axios.get(domainUrl +'api/RegLogin/getIsLoginMonitor', {
+                params: {
+                UserName: LoginName,
+                LoginPass:LoginPass
+                 }
+                })
+                .then(function (response) {
+                  	if(response.data.code=='200'){
+                  		hui.toast("成功登陆!");
+                            var user = {
+                                UserName:LoginName,
+					            MId:response.data.MId,
+					            NickName:response.data.NickName,
+					            HeadPic:response.data.HeadPic,
+					            telStats:response.data.telStats,
+					            UserRole:response.data.UserRole,
+					            UserRoleName:response.data.UserRoleName,
+					            masterbm:response.data.masterbm,
+					            shopbm:response.data.Shopbm,
+					            companybm:response.data.Companybm,
+					            shopid:response.data.Shopid,
+					            companyid:response.data.Companyid
+				            }
+
+                            plus.storage.setItem('user', JSON.stringify(user));
+                            plus.storage.setItem('MasterName', LoginName);
+	                        plus.nativeUI.toast("登陆成功");
+	                        var indexView=plus.webview.getLaunchWebview();
+	                        indexView.reload();
+	                        //indexView.evalJS("initData();");
+							indexView.show("pop-in",200,function () {
+								plus.webview.currentWebview().close("none");
+							});
+
+	                        
+//					        setTimeout(function() {
+//					        	var self=plus.webview.currentWebview();
+//					        	self.close;
+//						        clickedNoHead("member/MemberCheckList.html","MemberCheckList.html","pop-in");
+//					         }, 800);
+                            
+                            
+
+
+                  		
+                  	}
+                  	else
+                  	{
+                  		hui.toast(response.data.msg);
+                  		document.getElementById("PostSend").value="登陆失败";
+                        document.getElementById("PostSend").disabled = false;
+                  		return false;
+                  	}
+                   //console.log(response);
+                })
+                .catch(function (response) {
+                  console.log(response);
+                 });
+
+            },
+            
+        addInterceptors: function() {
+          axios.interceptors.request.use(function (config) {
+        // Do something before request is sent
+             console.log('开始请求')
+             document.getElementById("PostSend").value="正在登陆...";
+                 document.getElementById("PostSend").disabled = true;        	
+             return config
+             }, function (error) {
+              console.log('请求失败')
+            document.getElementById("PostSend").value="登陆失败";
+            document.getElementById("PostSend").disabled = false;
+            hui.toast("网络错误!");
+             return Promise.reject(error)
+          })
+        axios.interceptors.response.use(function (config) {
+        // Do something before request is sent
+        document.getElementById("PostSend").value="登陆完成";
+        document.getElementById("PostSend").disabled = false;
+        console.log('接收响应')
+        return config
+        }, function (error) {
+        // Do something with request error
+        console.log('响应出错')
+       document.getElementById("PostSend").value="登陆失败";
+        document.getElementById("PostSend").disabled = false;
+        hui.toast("网络错误!");
+        return Promise.reject(error)
+      })
+    }
+  
+
+
+
+
+        }
+    })
+    
+
+
+
+
+//var all = plus.webview.all(); 
+//var current = plus.webview.currentWebview().id; 
+//for(var i=0,len=all.length;i<len;i++){
+//	if(all[i].id!==current){
+//      all[i].close(); 
+//
+//  } 
+//} 
+
+//for(var i=0,len=all.length;i<len;i++){
+//	console.log("webview"+i+": "+all[i].getURL());
+//}
+
+
+
+back();
+}
+if(window.plus){  
+plusReady();  
+}else{  
+document.addEventListener("plusready",plusReady,false);  
+}  
+ 
+
+function back(){
+	plus.key.addEventListener("backbutton",function(){
+		 plus.runtime.quit();
+
+	});
+}
+
+
+
+
+
+</script>
+
+
+</html>

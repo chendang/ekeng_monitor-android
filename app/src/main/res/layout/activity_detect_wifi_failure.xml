@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detect_wifi_succ"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".health.activities.DetectWifiSuccActivity"
+    android:background="@drawable/bg_edittext_normal">
+    <LinearLayout
+        android:id="@+id/fg_home_bar_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/top_bar_color"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/top_back_btn_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/xml_login_main_btn_back" />
+
+        <TextView
+            android:id="@+id/tv_detect_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_ls_wifi_blood_pressure_failure"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_main_title_size"
+            android:gravity="center"
+            android:layout_marginRight="60dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="请按以下步骤排查可能的问题并重试"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detectwifisucc"
+        android:textSize="18sp"
+        tools:textStyle="bold"
+        android:layout_margin="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="\n 1、确保您的设备已经进入到配网模式;\n\n  2、确保输入的wifi密码正确无误;\n\n  3、确保手机连接到无线路由器2.4GHz网络;\n\n  4、确保无线路由器已关闭黑名单(mac地址过滤)功能;\n\n  5、请尝试将无线路由器设置为11gb或20Mhz频宽后进行配网;配网成功后,把路由器重新设置到原来配置;\n\n"
+        android:layout_weight="8" />
+
+    <Button
+        android:text="重试"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@drawable/btn_blue"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

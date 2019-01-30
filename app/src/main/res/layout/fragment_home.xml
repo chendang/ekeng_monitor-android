@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE">
+    <LinearLayout
+        android:id="@+id/fg_home_bar_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_hight"
+        android:layout_alignParentTop="true"
+        android:background="@color/top_bar_color"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/unregister"
+            android:text="注销"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_blue"
+            android:padding="@dimen/app_comm_size"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="@string/home_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_main_title_size" />
+        <Button
+            android:id="@+id/submit_record_info"
+            android:text="提交检查"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_blue"
+            android:padding="@dimen/app_comm_size"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/device_check_linear"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/evice_check_linear_padding_v"
+        android:paddingTop="@dimen/evice_check_linear_padding_v"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.cnnet.otc.health.views.MyGridView
+            android:id="@+id/fg_home_gv_device"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1px"
+            android:horizontalSpacing="0.0dip"
+            android:listSelector="@null"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0.0dip" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/fg_home_bar_top"
+        android:layout_above="@id/device_check_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/device_list_item_margin"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
+            android:divider="@color/list_line"
+            android:dividerHeight="1px" />
+    </LinearLayout>
+
+</RelativeLayout>

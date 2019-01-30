@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignTop="@+id/rl_cloud_opeate_bar_bottom"
+        android:background="@color/light_grey"/>
+    <RelativeLayout
+        android:id="@+id/rl_cloud_opeate_bar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_hight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#00000000">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/fl_home"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/home"
+                    style="@style/myTextView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/tag_home" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fl_member"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/member"
+                    style="@style/myTextView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/tag_member" />
+                <View
+                    android:id="@+id/red_member"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:background="@drawable/red_dot"
+                    android:layout_alignTop="@+id/member"
+                    android:layout_alignRight="@+id/member"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="3dp"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/fl_my_device"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                >
+
+                <ImageView
+                    android:id="@+id/my_device"
+                    style="@style/myTextView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/tag_device" />
+                <View
+                    android:id="@+id/red_me"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:background="@drawable/red_dot"
+                    android:layout_alignTop="@+id/my_device"
+                    android:layout_alignRight="@+id/my_device"
+                    android:visibility="gone"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="3dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_opeate_bar_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <FrameLayout
+                android:id="@+id/fl_add_insp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bottom_gray_bg"
+                android:clickable="true"
+                android:padding="3dp">
+
+                <!--<ImageView
+                    android:id="@+id/iv_add_insp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/like_normal" />-->
+                <TextView
+                    android:id="@+id/iv_add_insp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/black"
+                    android:text="添加待检人员" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/fl_delele_member"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bottom_gray_bg"
+                android:clickable="true"
+                android:padding="3dp">
+
+                <!--<ImageView
+                    android:id="@+id/iv_add_insp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/like_normal" />-->
+                <TextView
+                    android:id="@+id/iv_delete_member"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/black"
+                    android:text="删除会员账号" />
+            </FrameLayout>
+            <!--<FrameLayout
+                android:id="@+id/fl_download"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bottom_gray_bg"
+                android:clickable="true"
+                android:padding="3dp">
+
+                <ImageView
+                    android:id="@+id/iv_download"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/like_normal" />
+            </FrameLayout>-->
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/main_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_cloud_opeate_bar_bottom" />
+
+    <include
+        layout="@layout/view_main_topbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_hight" />
+</RelativeLayout>
